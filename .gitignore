@@ -1,0 +1,22 @@
+# Python virtual environment
+venv/
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Environment variables / secrets
+.env
+.env.*
+
+# FastF1 cache
+cache/
+.fastf1/
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
