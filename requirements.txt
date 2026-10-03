@@ -1,0 +1,5 @@
+fastf1
+pandas
+streamlit
+matplotlib
+xgboost
