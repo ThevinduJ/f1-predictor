@@ -16,6 +16,7 @@ import requests
 import streamlit as st
 
 PROFILE_PATH = Path(__file__).with_name("driver_profiles.json")
+IMAGE_PATH = Path(__file__).with_name("driver_images.json")
 DRIVER_PROFILES = {
     "RUS": "george-russell", "ANT": "kimi-antonelli", "LEC": "charles-leclerc",
     "HAM": "lewis-hamilton", "NOR": "lando-norris", "PIA": "oscar-piastri",
@@ -59,17 +60,67 @@ def _load_profiles(modified):
         return {}
 
 
-def get_driver(abbreviation, full_name=None, team=None):
+def normalize_team(team):
+    key = re.sub(r'[^a-z0-9]', '', str(team or '').lower())
+    return {'rbf1team': 'racingbulls', 'rb': 'racingbulls', 'redbull': 'redbullracing',
+            'cadillacf1team': 'cadillac', 'haasf1team': 'haas', 'alphataurif1team': 'alphatauri',
+            'alpinef1team': 'alpine', 'astonmartinarmco': 'astonmartin',
+            'kicksauber': 'sauber', 'alfaromeoracing': 'alfaromeo', 'racingpointf1team': 'racingpoint'}.get(key, key)
+
+
+@st.cache_data(show_spinner=False)
+def _load_images(modified):
+    try:
+        return json.loads(IMAGE_PATH.read_text(encoding='utf-8'))
+    except (OSError, ValueError):
+        return {'seasons': {}}
+
+
+def _season_entry(abbreviation, season, team=None):
+    try:
+        year = str(int(season))
+    except (TypeError, ValueError):
+        return None
+    modified = IMAGE_PATH.stat().st_mtime_ns if IMAGE_PATH.exists() else 0
+    entries = _load_images(modified).get('seasons', {}).get(year, {}).get(str(abbreviation).upper(), [])
+    if isinstance(team, str) and team.strip():
+        entries = [entry for entry in entries if normalize_team(entry.get('team')) == normalize_team(team)]
+    # Multiple team eras within one year require explicit race-team context.
+    return entries[0] if len(entries) == 1 else None
+
+
+def get_driver_image(driver_code, season, team=None):
+    """Exact season/team only. No mutable headshots or cross-season fallback.
+
+    Conservative placeholders also cover future seasons, retired drivers with
+    missing assets, and ambiguous mid-season team changes. This performs no I/O
+    beyond reading a cached local metadata file; validation is a maintenance job.
+    """
+    entry = _season_entry(driver_code, season, team)
+    url = entry.get('image_url') if entry else None
+    if not official_image_url(url):
+        return None
+    path = urlparse(url).path
+    year = int(season)
+    # Reject even an official URL if it is mutable/yearless or misfiled under
+    # another season. A maintenance edit must never reintroduce current imagery.
+    return url if f'/common/f1/{year}/' in path or f'/drivers/{year}Drivers/' in path else None
+
+
+def get_driver(abbreviation, season, full_name=None, team=None):
     modified = PROFILE_PATH.stat().st_mtime_ns if PROFILE_PATH.exists() else 0
     snapshot = _load_profiles(modified)
     profile = snapshot.get("drivers", {}).get(str(abbreviation), {}).copy()
     profile["abbreviation"] = str(abbreviation)
     name = full_name if isinstance(full_name, str) and full_name.strip() else None
     team = team if isinstance(team, str) and team.strip() else None
-    profile["full_name"] = name or profile.get("full_name") or str(abbreviation)
-    profile["team"] = team or profile.get("team") or "Team unavailable"
+    historical = _season_entry(abbreviation, season, team) or {}
+    profile["full_name"] = name or historical.get('full_name') or profile.get("full_name") or str(abbreviation)
+    profile["team"] = team or historical.get('team') or "Team unavailable"
+    profile['driver_number'] = historical.get('driver_number')
+    profile['season'] = season
     profile["age"] = age_on(profile.get("date_of_birth"))
-    profile["image_url"] = profile.get("image_url") if official_image_url(profile.get("image_url")) else None
+    profile["image_url"] = get_driver_image(abbreviation, season, team)
     profile["stats_as_of"] = profile.get("retrieved_at_utc")
     return profile
 

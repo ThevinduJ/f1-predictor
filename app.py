@@ -129,7 +129,7 @@ def predictor_page():
     if saved and saved["signature"] == signature:
         result = saved["result"]
         st.caption(f"Prediction generated {saved['timestamp']} · ML scores, not probabilities")
-        render_prediction_cards(result)
+        render_prediction_cards(result, season)
         st.caption("Deterministic ranking for the supplied entry list. No uncertainty estimates are calculated. "
                    "Historical race points exclude sprint points and championship penalties.")
         with st.expander("Exact prediction values"):
@@ -196,7 +196,7 @@ def analysis_page():
         st.info("Both selections are the same driver. Select another driver to compare.")
     event = schedule.loc[schedule["RoundNumber"] == round_number].iloc[0]
     event_header(race_names[round_number], event.get("Location", "Race session"), year)
-    render_comparison(driver1, driver2, results)
+    render_comparison(driver1, driver2, results, year)
     st.caption(f"{driver1}: solid line · {driver2}: {'dashed' if styles[1] == '--' else 'solid'} line")
 
     lap_data = []

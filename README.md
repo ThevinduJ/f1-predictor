@@ -236,3 +236,38 @@ classified retirees, but exclude disqualifications and non-starters. The pole
 metric reflects grid P1, which may differ from the qualifying winner after
 penalties. Race points exclude sprint points. Hover profiles use the existing
 current official-site snapshot, not career statistics as of the historical race.
+
+### Season-aware driver portraits
+
+All driver cards require an explicit season. Predictor passes the predicted
+season; Race Results passes the selected historical season; Comparison passes
+the session season. The shared `get_driver_image(code, season, team=None)`
+resolver in `src/driver_data.py` reads `src/driver_images.json`, keyed by season,
+then driver abbreviation, with one record per historical team. FastF1's race
+team remains authoritative. Multiple team records in a year require team context.
+The registry includes full-season rosters and replacement drivers for 2018–2026.
+
+Only official F1 URLs with an explicit matching season in the path are accepted.
+There is no cross-season fallback: unavailable or ambiguous imagery gets the
+neutral silhouette. Yearless FastF1 headshots and current profile portraits are
+never used to fill historical gaps. Image failures do not affect Python app
+execution; the existing silhouette/alt text remains available behind the image.
+Current profile snapshots still supply birth dates and current career stats,
+while season records supply the historical name, team and race number.
+
+Refresh imagery explicitly, outside Streamlit, with:
+
+```powershell
+python -m src.refresh_driver_images --seasons 2018 2019 2020 2021 2022 2023 2024 2025 2026
+```
+
+This queries paginated FastF1 Ergast/Jolpica rosters and validates official image
+URLs using HTTP HEAD; no scraping or image validation happens during reruns.
+Validation timestamps are stored with each usable portrait. Local registry reads
+are cached, with file modification time invalidating the cache after updates.
+
+At the initial validation, all 2025–2026 driver/team entries had official assets.
+2018 and seasons before it have no validated portraits in the registry. Missing
+2019–2024 cases include the 2019 Gasly/Albon team moves, Russell's 2020 team move,
+Kubica (2021), Hulkenberg/de Vries (2022), Lawson (2023), and Doohan (2024).
+Placeholders are deliberate in these cases rather than using the wrong team era.

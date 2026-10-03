@@ -125,7 +125,7 @@ def race_results_page():
         with columns[index % 3]:
             st.metric(label, value)
     st.caption('Pole uses the published starting grid. Retirements count as DNFs even when officially classified; disqualifications and non-starters are shown separately in status. Hover or focus cards for current career profiles.')
-    render_result_cards(classification)
+    render_result_cards(classification, season)
     with st.expander('Sortable classification table'):
         show_table(classification[['Position', 'Name', 'Driver', 'Team', 'Grid', 'Positions Changed', 'Points', 'Status', 'Classification', 'Time/Gap', 'Laps']])
         st.caption('Grid 0 denotes a pit-lane start. Position changes are unavailable for pit-lane or missing grid positions. Time is the winner’s total race time; other finishers show the leader gap or laps behind.')

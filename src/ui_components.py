@@ -44,8 +44,8 @@ def event_header(race, circuit, season, detail=""):
                 f'<span>{text(detail)}</span></div></div>', unsafe_allow_html=True)
 
 
-def driver_card_html(abbreviation, team=None, full_name=None, position=None, score=None, race_details=None):
-    driver = get_driver(abbreviation, full_name, team)
+def driver_card_html(abbreviation, team=None, full_name=None, position=None, score=None, race_details=None, *, season):
+    driver = get_driver(abbreviation, season, full_name=full_name, team=team)
     display = lambda value: "Unavailable" if value is None else text(value)
     image = f'<img src="{text(driver["image_url"])}" alt="{text(driver["full_name"])} portrait" loading="lazy" decoding="async" referrerpolicy="no-referrer">' if driver["image_url"] else ''
     placeholder = '<div class="avatar-fallback" aria-hidden="true"><svg viewBox="0 0 140 160" fill="currentColor"><circle cx="70" cy="44" r="29"/><path d="M12 160v-28c0-34 26-55 58-55s58 21 58 55v28z"/></svg></div>'
@@ -81,7 +81,7 @@ def render_driver_card(**kwargs):
     st.markdown(driver_card_html(**kwargs), unsafe_allow_html=True)
 
 
-def render_result_cards(classification):
+def render_result_cards(classification, season):
     """Extend the shared driver card; never substitute prediction scores for results."""
     def value(number):
         return f"{number:g}" if number is not None and math.isfinite(float(number)) else "N/A"
@@ -95,7 +95,7 @@ def render_result_cards(classification):
                    ('Points', value(row['Points']), ''), ('Time / gap', row['Time/Gap'], ''),
                    ('Status', row['Status'], '')]
         position = row['Position'] if math.isfinite(float(row['Position'])) else None
-        return driver_card_html(row['Driver'], team=row['Team'], full_name=row['Name'], position=position, race_details=details)
+        return driver_card_html(row['Driver'], team=row['Team'], full_name=row['Name'], position=position, race_details=details, season=season)
 
     podium = classification.loc[classification['Position'].isin([1, 2, 3])]
     section_header('Race podium', 'Official finishing order', 'Race results')
@@ -105,11 +105,11 @@ def render_result_cards(classification):
     st.markdown('<div class="driver-grid race-classification">' + ''.join(card(row) for _, row in remainder.iterrows()) + '</div>', unsafe_allow_html=True)
 
 
-def render_prediction_cards(result):
+def render_prediction_cards(result, season):
     ordered = result.sort_values("Predicted Position")
     def cards(rows):
         return ''.join(driver_card_html(row["Driver"], team=row["Team"],
-                     position=row["Predicted Position"], score=row["Predicted Score"]) for _, row in rows.iterrows())
+                     position=row["Predicted Position"], score=row["Predicted Score"], season=season) for _, row in rows.iterrows())
     section_header("Predicted podium", "The model's three highest-ranked drivers", "ML prediction")
     st.caption("Hover a driver card for career details. On mobile, tap the card; keyboard users can Tab to it.")
     st.markdown(f'<div class="driver-grid podium">{cards(ordered.head(3))}</div>', unsafe_allow_html=True)
@@ -118,11 +118,11 @@ def render_prediction_cards(result):
         st.markdown(f'<div class="driver-grid">{cards(ordered.iloc[3:])}</div>', unsafe_allow_html=True)
 
 
-def render_comparison(driver1, driver2, results):
+def render_comparison(driver1, driver2, results, season):
     def card(driver):
         rows = results.loc[results["Abbreviation"] == driver]
         row = rows.iloc[0] if not rows.empty else {}
-        return driver_card_html(driver, full_name=row.get("FullName"), team=row.get("TeamName"))
+        return driver_card_html(driver, full_name=row.get("FullName"), team=row.get("TeamName"), season=season)
     st.markdown(f'<div class="comparison">{card(driver1)}<div class="versus">VS</div>{card(driver2)}</div>', unsafe_allow_html=True)
 
 

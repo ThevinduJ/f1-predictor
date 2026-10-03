@@ -1,0 +1,2038 @@
+{
+  "seasons": {
+    "2018": {
+      "HAM": [
+        {
+          "team": "Mercedes",
+          "full_name": "Lewis Hamilton",
+          "driver_number": 44,
+          "image_url": null,
+          "validated_at_utc": null,
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        }
+      ],
+      "VET": [
+        {
+          "team": "Ferrari",
+          "full_name": "Sebastian Vettel",
+          "driver_number": 5,
+          "image_url": null,
+          "validated_at_utc": null,
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        }
+      ],
+      "VER": [
+        {
+          "team": "Red Bull",
+          "full_name": "Max Verstappen",
+          "driver_number": 33,
+          "image_url": null,
+          "validated_at_utc": null,
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        }
+      ],
+      "RIC": [
+        {
+          "team": "Red Bull",
+          "full_name": "Daniel Ricciardo",
+          "driver_number": 3,
+          "image_url": null,
+          "validated_at_utc": null,
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        }
+      ],
+      "BOT": [
+        {
+          "team": "Mercedes",
+          "full_name": "Valtteri Bottas",
+          "driver_number": 77,
+          "image_url": null,
+          "validated_at_utc": null,
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        }
+      ],
+      "SAI": [
+        {
+          "team": "Renault",
+          "full_name": "Carlos Sainz",
+          "driver_number": 55,
+          "image_url": null,
+          "validated_at_utc": null,
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        }
+      ],
+      "LEC": [
+        {
+          "team": "Sauber",
+          "full_name": "Charles Leclerc",
+          "driver_number": 16,
+          "image_url": null,
+          "validated_at_utc": null,
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        }
+      ],
+      "PER": [
+        {
+          "team": "Force India",
+          "full_name": "Sergio Pérez",
+          "driver_number": 11,
+          "image_url": null,
+          "validated_at_utc": null,
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        }
+      ],
+      "GRO": [
+        {
+          "team": "Haas F1 Team",
+          "full_name": "Romain Grosjean",
+          "driver_number": 8,
+          "image_url": null,
+          "validated_at_utc": null,
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        }
+      ],
+      "MAG": [
+        {
+          "team": "Haas F1 Team",
+          "full_name": "Kevin Magnussen",
+          "driver_number": 20,
+          "image_url": null,
+          "validated_at_utc": null,
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        }
+      ],
+      "ALO": [
+        {
+          "team": "McLaren",
+          "full_name": "Fernando Alonso",
+          "driver_number": 14,
+          "image_url": null,
+          "validated_at_utc": null,
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        }
+      ],
+      "HAR": [
+        {
+          "team": "Toro Rosso",
+          "full_name": "Brendon Hartley",
+          "driver_number": 28,
+          "image_url": null,
+          "validated_at_utc": null,
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        }
+      ],
+      "STR": [
+        {
+          "team": "Williams",
+          "full_name": "Lance Stroll",
+          "driver_number": 18,
+          "image_url": null,
+          "validated_at_utc": null,
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        }
+      ],
+      "VAN": [
+        {
+          "team": "McLaren",
+          "full_name": "Stoffel Vandoorne",
+          "driver_number": 2,
+          "image_url": null,
+          "validated_at_utc": null,
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        }
+      ],
+      "SIR": [
+        {
+          "team": "Williams",
+          "full_name": "Sergey Sirotkin",
+          "driver_number": 35,
+          "image_url": null,
+          "validated_at_utc": null,
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        }
+      ],
+      "GAS": [
+        {
+          "team": "Toro Rosso",
+          "full_name": "Pierre Gasly",
+          "driver_number": 10,
+          "image_url": null,
+          "validated_at_utc": null,
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        }
+      ],
+      "OCO": [
+        {
+          "team": "Force India",
+          "full_name": "Esteban Ocon",
+          "driver_number": 31,
+          "image_url": null,
+          "validated_at_utc": null,
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        }
+      ],
+      "ERI": [
+        {
+          "team": "Sauber",
+          "full_name": "Marcus Ericsson",
+          "driver_number": 9,
+          "image_url": null,
+          "validated_at_utc": null,
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        }
+      ],
+      "RAI": [
+        {
+          "team": "Ferrari",
+          "full_name": "Kimi Räikkönen",
+          "driver_number": 7,
+          "image_url": null,
+          "validated_at_utc": null,
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        }
+      ],
+      "HUL": [
+        {
+          "team": "Renault",
+          "full_name": "Nico Hülkenberg",
+          "driver_number": 27,
+          "image_url": null,
+          "validated_at_utc": null,
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        }
+      ]
+    },
+    "2019": {
+      "GAS": [
+        {
+          "team": "Red Bull",
+          "full_name": "Pierre Gasly",
+          "driver_number": 10,
+          "image_url": null,
+          "validated_at_utc": null,
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        },
+        {
+          "team": "Toro Rosso",
+          "full_name": "Pierre Gasly",
+          "driver_number": 10,
+          "image_url": null,
+          "validated_at_utc": null,
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        }
+      ],
+      "ALB": [
+        {
+          "team": "Toro Rosso",
+          "full_name": "Alexander Albon",
+          "driver_number": 23,
+          "image_url": null,
+          "validated_at_utc": null,
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        },
+        {
+          "team": "Red Bull",
+          "full_name": "Alexander Albon",
+          "driver_number": 23,
+          "image_url": null,
+          "validated_at_utc": null,
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        }
+      ],
+      "HAM": [
+        {
+          "team": "Mercedes",
+          "full_name": "Lewis Hamilton",
+          "driver_number": 44,
+          "image_url": "https://media.formula1.com/image/upload/content/dam/fom-website/drivers/2019Drivers/hamilton.jpg",
+          "validated_at_utc": "2026-10-03T07:40:29.173245+00:00",
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        }
+      ],
+      "VER": [
+        {
+          "team": "Red Bull",
+          "full_name": "Max Verstappen",
+          "driver_number": 33,
+          "image_url": "https://media.formula1.com/image/upload/content/dam/fom-website/drivers/2019Drivers/verstappen.jpg",
+          "validated_at_utc": "2026-10-03T07:40:29.706311+00:00",
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        }
+      ],
+      "LEC": [
+        {
+          "team": "Ferrari",
+          "full_name": "Charles Leclerc",
+          "driver_number": 16,
+          "image_url": "https://media.formula1.com/image/upload/content/dam/fom-website/drivers/2019Drivers/leclerc.jpg",
+          "validated_at_utc": "2026-10-03T07:40:29.662295+00:00",
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        }
+      ],
+      "BOT": [
+        {
+          "team": "Mercedes",
+          "full_name": "Valtteri Bottas",
+          "driver_number": 77,
+          "image_url": "https://media.formula1.com/image/upload/content/dam/fom-website/drivers/2019Drivers/bottas.jpg",
+          "validated_at_utc": "2026-10-03T07:40:29.607957+00:00",
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        }
+      ],
+      "VET": [
+        {
+          "team": "Ferrari",
+          "full_name": "Sebastian Vettel",
+          "driver_number": 5,
+          "image_url": "https://media.formula1.com/image/upload/content/dam/fom-website/drivers/2019Drivers/vettel.jpg",
+          "validated_at_utc": "2026-10-03T07:40:29.744311+00:00",
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        }
+      ],
+      "PER": [
+        {
+          "team": "Racing Point",
+          "full_name": "Sergio Pérez",
+          "driver_number": 11,
+          "image_url": "https://media.formula1.com/image/upload/content/dam/fom-website/drivers/2019Drivers/perez.jpg",
+          "validated_at_utc": "2026-10-03T07:40:30.511743+00:00",
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        }
+      ],
+      "NOR": [
+        {
+          "team": "McLaren",
+          "full_name": "Lando Norris",
+          "driver_number": 4,
+          "image_url": "https://media.formula1.com/image/upload/content/dam/fom-website/drivers/2019Drivers/norris.jpg",
+          "validated_at_utc": "2026-10-03T07:40:30.211831+00:00",
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        }
+      ],
+      "KVY": [
+        {
+          "team": "Toro Rosso",
+          "full_name": "Daniil Kvyat",
+          "driver_number": 26,
+          "image_url": "https://media.formula1.com/image/upload/content/dam/fom-website/drivers/2019Drivers/kvyat.jpg",
+          "validated_at_utc": "2026-10-03T07:40:31.143989+00:00",
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        }
+      ],
+      "SAI": [
+        {
+          "team": "McLaren",
+          "full_name": "Carlos Sainz",
+          "driver_number": 55,
+          "image_url": "https://media.formula1.com/image/upload/content/dam/fom-website/drivers/2019Drivers/sainz.jpg",
+          "validated_at_utc": "2026-10-03T07:40:31.094048+00:00",
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        }
+      ],
+      "RIC": [
+        {
+          "team": "Renault",
+          "full_name": "Daniel Ricciardo",
+          "driver_number": 3,
+          "image_url": "https://media.formula1.com/image/upload/content/dam/fom-website/drivers/2019Drivers/ricciardo.jpg",
+          "validated_at_utc": "2026-10-03T07:40:31.188996+00:00",
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        }
+      ],
+      "HUL": [
+        {
+          "team": "Renault",
+          "full_name": "Nico Hülkenberg",
+          "driver_number": 27,
+          "image_url": "https://media.formula1.com/image/upload/content/dam/fom-website/drivers/2019Drivers/hulkenberg.jpg",
+          "validated_at_utc": "2026-10-03T07:40:31.745126+00:00",
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        }
+      ],
+      "RAI": [
+        {
+          "team": "Alfa Romeo",
+          "full_name": "Kimi Räikkönen",
+          "driver_number": 7,
+          "image_url": "https://media.formula1.com/image/upload/content/dam/fom-website/drivers/2019Drivers/raikkonen.jpg",
+          "validated_at_utc": "2026-10-03T07:40:31.747128+00:00",
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        }
+      ],
+      "MAG": [
+        {
+          "team": "Haas F1 Team",
+          "full_name": "Kevin Magnussen",
+          "driver_number": 20,
+          "image_url": "https://media.formula1.com/image/upload/content/dam/fom-website/drivers/2019Drivers/magnussen.jpg",
+          "validated_at_utc": "2026-10-03T07:40:31.758443+00:00",
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        }
+      ],
+      "GRO": [
+        {
+          "team": "Haas F1 Team",
+          "full_name": "Romain Grosjean",
+          "driver_number": 8,
+          "image_url": "https://media.formula1.com/image/upload/content/dam/fom-website/drivers/2019Drivers/grosjean.jpg",
+          "validated_at_utc": "2026-10-03T07:40:31.791537+00:00",
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        }
+      ],
+      "GIO": [
+        {
+          "team": "Alfa Romeo",
+          "full_name": "Antonio Giovinazzi",
+          "driver_number": 99,
+          "image_url": "https://media.formula1.com/image/upload/content/dam/fom-website/drivers/2019Drivers/giovinazzi.jpg",
+          "validated_at_utc": "2026-10-03T07:40:32.395466+00:00",
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        }
+      ],
+      "RUS": [
+        {
+          "team": "Williams",
+          "full_name": "George Russell",
+          "driver_number": 63,
+          "image_url": "https://media.formula1.com/image/upload/content/dam/fom-website/drivers/2019Drivers/russell.jpg",
+          "validated_at_utc": "2026-10-03T07:40:32.315329+00:00",
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        }
+      ],
+      "KUB": [
+        {
+          "team": "Williams",
+          "full_name": "Robert Kubica",
+          "driver_number": 88,
+          "image_url": "https://media.formula1.com/image/upload/content/dam/fom-website/drivers/2019Drivers/kubica.jpg",
+          "validated_at_utc": "2026-10-03T07:40:32.301293+00:00",
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        }
+      ],
+      "STR": [
+        {
+          "team": "Racing Point",
+          "full_name": "Lance Stroll",
+          "driver_number": 18,
+          "image_url": "https://media.formula1.com/image/upload/content/dam/fom-website/drivers/2019Drivers/stroll.jpg",
+          "validated_at_utc": "2026-10-03T07:40:33.059172+00:00",
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        }
+      ]
+    },
+    "2020": {
+      "HUL": [
+        {
+          "team": "Racing Point",
+          "full_name": "Nico Hülkenberg",
+          "driver_number": 27,
+          "image_url": "https://media.formula1.com/image/upload/content/dam/fom-website/drivers/2020Drivers/hulkenberg.jpg",
+          "validated_at_utc": "2026-10-03T07:40:37.770086+00:00",
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        }
+      ],
+      "GRO": [
+        {
+          "team": "Haas F1 Team",
+          "full_name": "Romain Grosjean",
+          "driver_number": 8,
+          "image_url": "https://media.formula1.com/image/upload/content/dam/fom-website/drivers/2020Drivers/grosjean.jpg",
+          "validated_at_utc": "2026-10-03T07:40:38.690186+00:00",
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        }
+      ],
+      "RUS": [
+        {
+          "team": "Mercedes",
+          "full_name": "George Russell",
+          "driver_number": 63,
+          "image_url": null,
+          "validated_at_utc": null,
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        },
+        {
+          "team": "Williams",
+          "full_name": "George Russell",
+          "driver_number": 63,
+          "image_url": null,
+          "validated_at_utc": null,
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        }
+      ],
+      "AIT": [
+        {
+          "team": "Williams",
+          "full_name": "Jack Aitken",
+          "driver_number": 89,
+          "image_url": "https://media.formula1.com/image/upload/content/dam/fom-website/drivers/2020Drivers/aitken.jpg",
+          "validated_at_utc": "2026-10-03T07:40:38.137602+00:00",
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        }
+      ],
+      "VER": [
+        {
+          "team": "Red Bull",
+          "full_name": "Max Verstappen",
+          "driver_number": 33,
+          "image_url": "https://media.formula1.com/image/upload/content/dam/fom-website/drivers/2020Drivers/verstappen.jpg",
+          "validated_at_utc": "2026-10-03T07:40:38.348796+00:00",
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        }
+      ],
+      "BOT": [
+        {
+          "team": "Mercedes",
+          "full_name": "Valtteri Bottas",
+          "driver_number": 77,
+          "image_url": "https://media.formula1.com/image/upload/content/dam/fom-website/drivers/2020Drivers/bottas.jpg",
+          "validated_at_utc": "2026-10-03T07:40:38.500355+00:00",
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        }
+      ],
+      "HAM": [
+        {
+          "team": "Mercedes",
+          "full_name": "Lewis Hamilton",
+          "driver_number": 44,
+          "image_url": "https://media.formula1.com/image/upload/content/dam/fom-website/drivers/2020Drivers/hamilton.jpg",
+          "validated_at_utc": "2026-10-03T07:40:39.503504+00:00",
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        }
+      ],
+      "ALB": [
+        {
+          "team": "Red Bull",
+          "full_name": "Alexander Albon",
+          "driver_number": 23,
+          "image_url": "https://media.formula1.com/image/upload/content/dam/fom-website/drivers/2020Drivers/albon.jpg",
+          "validated_at_utc": "2026-10-03T07:40:38.903077+00:00",
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        }
+      ],
+      "NOR": [
+        {
+          "team": "McLaren",
+          "full_name": "Lando Norris",
+          "driver_number": 4,
+          "image_url": "https://media.formula1.com/image/upload/content/dam/fom-website/drivers/2020Drivers/norris.jpg",
+          "validated_at_utc": "2026-10-03T07:40:39.667962+00:00",
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        }
+      ],
+      "SAI": [
+        {
+          "team": "McLaren",
+          "full_name": "Carlos Sainz",
+          "driver_number": 55,
+          "image_url": "https://media.formula1.com/image/upload/content/dam/fom-website/drivers/2020Drivers/sainz.jpg",
+          "validated_at_utc": "2026-10-03T07:40:40.106469+00:00",
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        }
+      ],
+      "RIC": [
+        {
+          "team": "Renault",
+          "full_name": "Daniel Ricciardo",
+          "driver_number": 3,
+          "image_url": "https://media.formula1.com/image/upload/content/dam/fom-website/drivers/2020Drivers/ricciardo.jpg",
+          "validated_at_utc": "2026-10-03T07:40:39.567406+00:00",
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        }
+      ],
+      "GAS": [
+        {
+          "team": "AlphaTauri",
+          "full_name": "Pierre Gasly",
+          "driver_number": 10,
+          "image_url": "https://media.formula1.com/image/upload/content/dam/fom-website/drivers/2020Drivers/gasly.jpg",
+          "validated_at_utc": "2026-10-03T07:40:40.137571+00:00",
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        }
+      ],
+      "OCO": [
+        {
+          "team": "Renault",
+          "full_name": "Esteban Ocon",
+          "driver_number": 31,
+          "image_url": "https://media.formula1.com/image/upload/content/dam/fom-website/drivers/2020Drivers/ocon.jpg",
+          "validated_at_utc": "2026-10-03T07:40:40.156571+00:00",
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        }
+      ],
+      "STR": [
+        {
+          "team": "Racing Point",
+          "full_name": "Lance Stroll",
+          "driver_number": 18,
+          "image_url": "https://media.formula1.com/image/upload/content/dam/fom-website/drivers/2020Drivers/stroll.jpg",
+          "validated_at_utc": "2026-10-03T07:40:40.215459+00:00",
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        }
+      ],
+      "KVY": [
+        {
+          "team": "AlphaTauri",
+          "full_name": "Daniil Kvyat",
+          "driver_number": 26,
+          "image_url": "https://media.formula1.com/image/upload/content/dam/fom-website/drivers/2020Drivers/kvyat.jpg",
+          "validated_at_utc": "2026-10-03T07:40:40.772794+00:00",
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        }
+      ],
+      "RAI": [
+        {
+          "team": "Alfa Romeo",
+          "full_name": "Kimi Räikkönen",
+          "driver_number": 7,
+          "image_url": "https://media.formula1.com/image/upload/content/dam/fom-website/drivers/2020Drivers/raikkonen.jpg",
+          "validated_at_utc": "2026-10-03T07:40:40.762707+00:00",
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        }
+      ],
+      "LEC": [
+        {
+          "team": "Ferrari",
+          "full_name": "Charles Leclerc",
+          "driver_number": 16,
+          "image_url": "https://media.formula1.com/image/upload/content/dam/fom-website/drivers/2020Drivers/leclerc.jpg",
+          "validated_at_utc": "2026-10-03T07:40:40.763711+00:00",
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        }
+      ],
+      "VET": [
+        {
+          "team": "Ferrari",
+          "full_name": "Sebastian Vettel",
+          "driver_number": 5,
+          "image_url": "https://media.formula1.com/image/upload/content/dam/fom-website/drivers/2020Drivers/vettel.jpg",
+          "validated_at_utc": "2026-10-03T07:40:40.882673+00:00",
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        }
+      ],
+      "GIO": [
+        {
+          "team": "Alfa Romeo",
+          "full_name": "Antonio Giovinazzi",
+          "driver_number": 99,
+          "image_url": "https://media.formula1.com/image/upload/content/dam/fom-website/drivers/2020Drivers/giovinazzi.jpg",
+          "validated_at_utc": "2026-10-03T07:40:41.343751+00:00",
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        }
+      ],
+      "LAT": [
+        {
+          "team": "Williams",
+          "full_name": "Nicholas Latifi",
+          "driver_number": 6,
+          "image_url": "https://media.formula1.com/image/upload/content/dam/fom-website/drivers/2020Drivers/latifi.jpg",
+          "validated_at_utc": "2026-10-03T07:40:41.333240+00:00",
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        }
+      ],
+      "MAG": [
+        {
+          "team": "Haas F1 Team",
+          "full_name": "Kevin Magnussen",
+          "driver_number": 20,
+          "image_url": "https://media.formula1.com/image/upload/content/dam/fom-website/drivers/2020Drivers/magnussen.jpg",
+          "validated_at_utc": "2026-10-03T07:40:41.432169+00:00",
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        }
+      ],
+      "FIT": [
+        {
+          "team": "Haas F1 Team",
+          "full_name": "Pietro Fittipaldi",
+          "driver_number": 51,
+          "image_url": "https://media.formula1.com/image/upload/content/dam/fom-website/drivers/2020Drivers/fittipaldi.jpg",
+          "validated_at_utc": "2026-10-03T07:40:42.744548+00:00",
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        }
+      ],
+      "PER": [
+        {
+          "team": "Racing Point",
+          "full_name": "Sergio Pérez",
+          "driver_number": 11,
+          "image_url": "https://media.formula1.com/image/upload/content/dam/fom-website/drivers/2020Drivers/perez.jpg",
+          "validated_at_utc": "2026-10-03T07:40:42.427767+00:00",
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        }
+      ]
+    },
+    "2021": {
+      "KUB": [
+        {
+          "team": "Alfa Romeo",
+          "full_name": "Robert Kubica",
+          "driver_number": 88,
+          "image_url": null,
+          "validated_at_utc": null,
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        }
+      ],
+      "VER": [
+        {
+          "team": "Red Bull",
+          "full_name": "Max Verstappen",
+          "driver_number": 33,
+          "image_url": "https://media.formula1.com/image/upload/content/dam/fom-website/drivers/2021Drivers/verstappen.jpg",
+          "validated_at_utc": "2026-10-03T07:40:47.861862+00:00",
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        }
+      ],
+      "HAM": [
+        {
+          "team": "Mercedes",
+          "full_name": "Lewis Hamilton",
+          "driver_number": 44,
+          "image_url": "https://media.formula1.com/image/upload/content/dam/fom-website/drivers/2021Drivers/hamilton.jpg",
+          "validated_at_utc": "2026-10-03T07:40:47.790150+00:00",
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        }
+      ],
+      "SAI": [
+        {
+          "team": "Ferrari",
+          "full_name": "Carlos Sainz",
+          "driver_number": 55,
+          "image_url": "https://media.formula1.com/image/upload/content/dam/fom-website/drivers/2021Drivers/sainz.jpg",
+          "validated_at_utc": "2026-10-03T07:40:47.821157+00:00",
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        }
+      ],
+      "TSU": [
+        {
+          "team": "AlphaTauri",
+          "full_name": "Yuki Tsunoda",
+          "driver_number": 22,
+          "image_url": "https://media.formula1.com/image/upload/content/dam/fom-website/drivers/2021Drivers/tsunoda.jpg",
+          "validated_at_utc": "2026-10-03T07:40:48.370767+00:00",
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        }
+      ],
+      "GAS": [
+        {
+          "team": "AlphaTauri",
+          "full_name": "Pierre Gasly",
+          "driver_number": 10,
+          "image_url": "https://media.formula1.com/image/upload/content/dam/fom-website/drivers/2021Drivers/gasly.jpg",
+          "validated_at_utc": "2026-10-03T07:40:48.405907+00:00",
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        }
+      ],
+      "BOT": [
+        {
+          "team": "Mercedes",
+          "full_name": "Valtteri Bottas",
+          "driver_number": 77,
+          "image_url": "https://media.formula1.com/image/upload/content/dam/fom-website/drivers/2021Drivers/bottas.jpg",
+          "validated_at_utc": "2026-10-03T07:40:48.471299+00:00",
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        }
+      ],
+      "NOR": [
+        {
+          "team": "McLaren",
+          "full_name": "Lando Norris",
+          "driver_number": 4,
+          "image_url": "https://media.formula1.com/image/upload/content/dam/fom-website/drivers/2021Drivers/norris.jpg",
+          "validated_at_utc": "2026-10-03T07:40:49.256510+00:00",
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        }
+      ],
+      "ALO": [
+        {
+          "team": "Alpine F1 Team",
+          "full_name": "Fernando Alonso",
+          "driver_number": 14,
+          "image_url": "https://media.formula1.com/image/upload/content/dam/fom-website/drivers/2021Drivers/alonso.jpg",
+          "validated_at_utc": "2026-10-03T07:40:48.856930+00:00",
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        }
+      ],
+      "OCO": [
+        {
+          "team": "Alpine F1 Team",
+          "full_name": "Esteban Ocon",
+          "driver_number": 31,
+          "image_url": "https://media.formula1.com/image/upload/content/dam/fom-website/drivers/2021Drivers/ocon.jpg",
+          "validated_at_utc": "2026-10-03T07:40:48.989833+00:00",
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        }
+      ],
+      "LEC": [
+        {
+          "team": "Ferrari",
+          "full_name": "Charles Leclerc",
+          "driver_number": 16,
+          "image_url": "https://media.formula1.com/image/upload/content/dam/fom-website/drivers/2021Drivers/leclerc.jpg",
+          "validated_at_utc": "2026-10-03T07:40:48.972357+00:00",
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        }
+      ],
+      "VET": [
+        {
+          "team": "Aston Martin",
+          "full_name": "Sebastian Vettel",
+          "driver_number": 5,
+          "image_url": "https://media.formula1.com/image/upload/content/dam/fom-website/drivers/2021Drivers/vettel.jpg",
+          "validated_at_utc": "2026-10-03T07:40:49.419511+00:00",
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        }
+      ],
+      "RIC": [
+        {
+          "team": "McLaren",
+          "full_name": "Daniel Ricciardo",
+          "driver_number": 3,
+          "image_url": "https://media.formula1.com/image/upload/content/dam/fom-website/drivers/2021Drivers/ricciardo.jpg",
+          "validated_at_utc": "2026-10-03T07:40:49.550560+00:00",
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        }
+      ],
+      "STR": [
+        {
+          "team": "Aston Martin",
+          "full_name": "Lance Stroll",
+          "driver_number": 18,
+          "image_url": "https://media.formula1.com/image/upload/content/dam/fom-website/drivers/2021Drivers/stroll.jpg",
+          "validated_at_utc": "2026-10-03T07:40:49.552560+00:00",
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        }
+      ],
+      "MSC": [
+        {
+          "team": "Haas F1 Team",
+          "full_name": "Mick Schumacher",
+          "driver_number": 47,
+          "image_url": "https://media.formula1.com/image/upload/content/dam/fom-website/drivers/2021Drivers/schumacher.jpg",
+          "validated_at_utc": "2026-10-03T07:40:50.110580+00:00",
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        }
+      ],
+      "PER": [
+        {
+          "team": "Red Bull",
+          "full_name": "Sergio Pérez",
+          "driver_number": 11,
+          "image_url": "https://media.formula1.com/image/upload/content/dam/fom-website/drivers/2021Drivers/perez.jpg",
+          "validated_at_utc": "2026-10-03T07:40:50.015599+00:00",
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        }
+      ],
+      "LAT": [
+        {
+          "team": "Williams",
+          "full_name": "Nicholas Latifi",
+          "driver_number": 6,
+          "image_url": "https://media.formula1.com/image/upload/content/dam/fom-website/drivers/2021Drivers/latifi.jpg",
+          "validated_at_utc": "2026-10-03T07:40:50.428712+00:00",
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        }
+      ],
+      "GIO": [
+        {
+          "team": "Alfa Romeo",
+          "full_name": "Antonio Giovinazzi",
+          "driver_number": 99,
+          "image_url": "https://media.formula1.com/image/upload/content/dam/fom-website/drivers/2021Drivers/giovinazzi.jpg",
+          "validated_at_utc": "2026-10-03T07:40:50.876082+00:00",
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        }
+      ],
+      "RUS": [
+        {
+          "team": "Williams",
+          "full_name": "George Russell",
+          "driver_number": 63,
+          "image_url": "https://media.formula1.com/image/upload/content/dam/fom-website/drivers/2021Drivers/russell.jpg",
+          "validated_at_utc": "2026-10-03T07:40:50.651148+00:00",
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        }
+      ],
+      "RAI": [
+        {
+          "team": "Alfa Romeo",
+          "full_name": "Kimi Räikkönen",
+          "driver_number": 7,
+          "image_url": "https://media.formula1.com/image/upload/content/dam/fom-website/drivers/2021Drivers/raikkonen.jpg",
+          "validated_at_utc": "2026-10-03T07:40:50.809892+00:00",
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        }
+      ],
+      "MAZ": [
+        {
+          "team": "Haas F1 Team",
+          "full_name": "Nikita Mazepin",
+          "driver_number": 9,
+          "image_url": "https://media.formula1.com/image/upload/content/dam/fom-website/drivers/2021Drivers/mazepin.jpg",
+          "validated_at_utc": "2026-10-03T07:40:51.051203+00:00",
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        }
+      ]
+    },
+    "2022": {
+      "HUL": [
+        {
+          "team": "Aston Martin",
+          "full_name": "Nico Hülkenberg",
+          "driver_number": 27,
+          "image_url": null,
+          "validated_at_utc": null,
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        }
+      ],
+      "DEV": [
+        {
+          "team": "Williams",
+          "full_name": "Nyck de Vries",
+          "driver_number": 45,
+          "image_url": null,
+          "validated_at_utc": null,
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        }
+      ],
+      "VER": [
+        {
+          "team": "Red Bull",
+          "full_name": "Max Verstappen",
+          "driver_number": 1,
+          "image_url": "https://media.formula1.com/image/upload/content/dam/fom-website/drivers/2022Drivers/verstappen.jpg",
+          "validated_at_utc": "2026-10-03T07:40:57.436830+00:00",
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        }
+      ],
+      "LEC": [
+        {
+          "team": "Ferrari",
+          "full_name": "Charles Leclerc",
+          "driver_number": 16,
+          "image_url": "https://media.formula1.com/image/upload/content/dam/fom-website/drivers/2022Drivers/leclerc.jpg",
+          "validated_at_utc": "2026-10-03T07:40:57.497244+00:00",
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        }
+      ],
+      "PER": [
+        {
+          "team": "Red Bull",
+          "full_name": "Sergio Pérez",
+          "driver_number": 11,
+          "image_url": "https://media.formula1.com/image/upload/content/dam/fom-website/drivers/2022Drivers/perez.jpg",
+          "validated_at_utc": "2026-10-03T07:40:57.990768+00:00",
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        }
+      ],
+      "SAI": [
+        {
+          "team": "Ferrari",
+          "full_name": "Carlos Sainz",
+          "driver_number": 55,
+          "image_url": "https://media.formula1.com/image/upload/content/dam/fom-website/drivers/2022Drivers/sainz.jpg",
+          "validated_at_utc": "2026-10-03T07:40:57.944750+00:00",
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        }
+      ],
+      "RUS": [
+        {
+          "team": "Mercedes",
+          "full_name": "George Russell",
+          "driver_number": 63,
+          "image_url": "https://media.formula1.com/image/upload/content/dam/fom-website/drivers/2022Drivers/russell.jpg",
+          "validated_at_utc": "2026-10-03T07:40:58.099101+00:00",
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        }
+      ],
+      "NOR": [
+        {
+          "team": "McLaren",
+          "full_name": "Lando Norris",
+          "driver_number": 4,
+          "image_url": "https://media.formula1.com/image/upload/content/dam/fom-website/drivers/2022Drivers/norris.jpg",
+          "validated_at_utc": "2026-10-03T07:40:58.579375+00:00",
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        }
+      ],
+      "OCO": [
+        {
+          "team": "Alpine F1 Team",
+          "full_name": "Esteban Ocon",
+          "driver_number": 31,
+          "image_url": "https://media.formula1.com/image/upload/content/dam/fom-website/drivers/2022Drivers/ocon.jpg",
+          "validated_at_utc": "2026-10-03T07:40:58.625162+00:00",
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        }
+      ],
+      "STR": [
+        {
+          "team": "Aston Martin",
+          "full_name": "Lance Stroll",
+          "driver_number": 18,
+          "image_url": "https://media.formula1.com/image/upload/content/dam/fom-website/drivers/2022Drivers/stroll.jpg",
+          "validated_at_utc": "2026-10-03T07:40:58.876864+00:00",
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        }
+      ],
+      "RIC": [
+        {
+          "team": "McLaren",
+          "full_name": "Daniel Ricciardo",
+          "driver_number": 3,
+          "image_url": "https://media.formula1.com/image/upload/content/dam/fom-website/drivers/2022Drivers/ricciardo.jpg",
+          "validated_at_utc": "2026-10-03T07:40:58.657166+00:00",
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        }
+      ],
+      "VET": [
+        {
+          "team": "Aston Martin",
+          "full_name": "Sebastian Vettel",
+          "driver_number": 5,
+          "image_url": "https://media.formula1.com/image/upload/content/dam/fom-website/drivers/2022Drivers/vettel.jpg",
+          "validated_at_utc": "2026-10-03T07:40:59.197084+00:00",
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        }
+      ],
+      "TSU": [
+        {
+          "team": "AlphaTauri",
+          "full_name": "Yuki Tsunoda",
+          "driver_number": 22,
+          "image_url": "https://media.formula1.com/image/upload/content/dam/fom-website/drivers/2022Drivers/tsunoda.jpg",
+          "validated_at_utc": "2026-10-03T07:40:59.270640+00:00",
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        }
+      ],
+      "ZHO": [
+        {
+          "team": "Alfa Romeo",
+          "full_name": "Guanyu Zhou",
+          "driver_number": 24,
+          "image_url": "https://media.formula1.com/image/upload/content/dam/fom-website/drivers/2022Drivers/zhou.jpg",
+          "validated_at_utc": "2026-10-03T07:40:59.169081+00:00",
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        }
+      ],
+      "ALB": [
+        {
+          "team": "Williams",
+          "full_name": "Alexander Albon",
+          "driver_number": 23,
+          "image_url": "https://media.formula1.com/image/upload/content/dam/fom-website/drivers/2022Drivers/albon.jpg",
+          "validated_at_utc": "2026-10-03T07:41:00.198041+00:00",
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        }
+      ],
+      "GAS": [
+        {
+          "team": "AlphaTauri",
+          "full_name": "Pierre Gasly",
+          "driver_number": 10,
+          "image_url": "https://media.formula1.com/image/upload/content/dam/fom-website/drivers/2022Drivers/gasly.jpg",
+          "validated_at_utc": "2026-10-03T07:40:59.651806+00:00",
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        }
+      ],
+      "BOT": [
+        {
+          "team": "Alfa Romeo",
+          "full_name": "Valtteri Bottas",
+          "driver_number": 77,
+          "image_url": "https://media.formula1.com/image/upload/content/dam/fom-website/drivers/2022Drivers/bottas.jpg",
+          "validated_at_utc": "2026-10-03T07:41:00.127329+00:00",
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        }
+      ],
+      "MSC": [
+        {
+          "team": "Haas F1 Team",
+          "full_name": "Mick Schumacher",
+          "driver_number": 47,
+          "image_url": "https://media.formula1.com/image/upload/content/dam/fom-website/drivers/2022Drivers/schumacher.jpg",
+          "validated_at_utc": "2026-10-03T07:41:00.128329+00:00",
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        }
+      ],
+      "MAG": [
+        {
+          "team": "Haas F1 Team",
+          "full_name": "Kevin Magnussen",
+          "driver_number": 20,
+          "image_url": "https://media.formula1.com/image/upload/content/dam/fom-website/drivers/2022Drivers/magnussen.jpg",
+          "validated_at_utc": "2026-10-03T07:41:00.565019+00:00",
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        }
+      ],
+      "HAM": [
+        {
+          "team": "Mercedes",
+          "full_name": "Lewis Hamilton",
+          "driver_number": 44,
+          "image_url": "https://media.formula1.com/image/upload/content/dam/fom-website/drivers/2022Drivers/hamilton.jpg",
+          "validated_at_utc": "2026-10-03T07:41:00.746587+00:00",
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        }
+      ],
+      "LAT": [
+        {
+          "team": "Williams",
+          "full_name": "Nicholas Latifi",
+          "driver_number": 6,
+          "image_url": "https://media.formula1.com/image/upload/content/dam/fom-website/drivers/2022Drivers/latifi.jpg",
+          "validated_at_utc": "2026-10-03T07:41:01.394377+00:00",
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        }
+      ],
+      "ALO": [
+        {
+          "team": "Alpine F1 Team",
+          "full_name": "Fernando Alonso",
+          "driver_number": 14,
+          "image_url": "https://media.formula1.com/image/upload/content/dam/fom-website/drivers/2022Drivers/alonso.jpg",
+          "validated_at_utc": "2026-10-03T07:41:00.833141+00:00",
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        }
+      ]
+    },
+    "2023": {
+      "DEV": [
+        {
+          "team": "AlphaTauri",
+          "full_name": "Nyck de Vries",
+          "driver_number": 21,
+          "image_url": "https://media.formula1.com/image/upload/content/dam/fom-website/drivers/2023Drivers/devries.jpg",
+          "validated_at_utc": "2026-10-03T07:41:07.275991+00:00",
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        }
+      ],
+      "LAW": [
+        {
+          "team": "AlphaTauri",
+          "full_name": "Liam Lawson",
+          "driver_number": 40,
+          "image_url": null,
+          "validated_at_utc": null,
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        }
+      ],
+      "VER": [
+        {
+          "team": "Red Bull",
+          "full_name": "Max Verstappen",
+          "driver_number": 1,
+          "image_url": "https://media.formula1.com/image/upload/content/dam/fom-website/drivers/2023Drivers/verstappen.jpg",
+          "validated_at_utc": "2026-10-03T07:41:07.147530+00:00",
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        }
+      ],
+      "LEC": [
+        {
+          "team": "Ferrari",
+          "full_name": "Charles Leclerc",
+          "driver_number": 16,
+          "image_url": "https://media.formula1.com/image/upload/content/dam/fom-website/drivers/2023Drivers/leclerc.jpg",
+          "validated_at_utc": "2026-10-03T07:41:08.734777+00:00",
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        }
+      ],
+      "RUS": [
+        {
+          "team": "Mercedes",
+          "full_name": "George Russell",
+          "driver_number": 63,
+          "image_url": "https://media.formula1.com/image/upload/content/dam/fom-website/drivers/2023Drivers/russell.jpg",
+          "validated_at_utc": "2026-10-03T07:41:07.709102+00:00",
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        }
+      ],
+      "PER": [
+        {
+          "team": "Red Bull",
+          "full_name": "Sergio Pérez",
+          "driver_number": 11,
+          "image_url": "https://media.formula1.com/image/upload/content/dam/fom-website/drivers/2023Drivers/perez.jpg",
+          "validated_at_utc": "2026-10-03T07:41:07.918359+00:00",
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        }
+      ],
+      "NOR": [
+        {
+          "team": "McLaren",
+          "full_name": "Lando Norris",
+          "driver_number": 4,
+          "image_url": "https://media.formula1.com/image/upload/content/dam/fom-website/drivers/2023Drivers/norris.jpg",
+          "validated_at_utc": "2026-10-03T07:41:08.190321+00:00",
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        }
+      ],
+      "PIA": [
+        {
+          "team": "McLaren",
+          "full_name": "Oscar Piastri",
+          "driver_number": 81,
+          "image_url": "https://media.formula1.com/image/upload/content/dam/fom-website/drivers/2023Drivers/piastri.jpg",
+          "validated_at_utc": "2026-10-03T07:41:08.490606+00:00",
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        }
+      ],
+      "ALO": [
+        {
+          "team": "Aston Martin",
+          "full_name": "Fernando Alonso",
+          "driver_number": 14,
+          "image_url": "https://media.formula1.com/image/upload/content/dam/fom-website/drivers/2023Drivers/alonso.jpg",
+          "validated_at_utc": "2026-10-03T07:41:09.024938+00:00",
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        }
+      ],
+      "TSU": [
+        {
+          "team": "AlphaTauri",
+          "full_name": "Yuki Tsunoda",
+          "driver_number": 22,
+          "image_url": "https://media.formula1.com/image/upload/content/dam/fom-website/drivers/2023Drivers/tsunoda.jpg",
+          "validated_at_utc": "2026-10-03T07:41:08.781780+00:00",
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        }
+      ],
+      "HAM": [
+        {
+          "team": "Mercedes",
+          "full_name": "Lewis Hamilton",
+          "driver_number": 44,
+          "image_url": "https://media.formula1.com/image/upload/content/dam/fom-website/drivers/2023Drivers/hamilton.jpg",
+          "validated_at_utc": "2026-10-03T07:41:09.272092+00:00",
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        }
+      ],
+      "STR": [
+        {
+          "team": "Aston Martin",
+          "full_name": "Lance Stroll",
+          "driver_number": 18,
+          "image_url": "https://media.formula1.com/image/upload/content/dam/fom-website/drivers/2023Drivers/stroll.jpg",
+          "validated_at_utc": "2026-10-03T07:41:09.386356+00:00",
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        }
+      ],
+      "RIC": [
+        {
+          "team": "AlphaTauri",
+          "full_name": "Daniel Ricciardo",
+          "driver_number": 3,
+          "image_url": "https://media.formula1.com/image/upload/content/dam/fom-website/drivers/2023Drivers/ricciardo.jpg",
+          "validated_at_utc": "2026-10-03T07:41:09.764611+00:00",
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        }
+      ],
+      "OCO": [
+        {
+          "team": "Alpine F1 Team",
+          "full_name": "Esteban Ocon",
+          "driver_number": 31,
+          "image_url": "https://media.formula1.com/image/upload/content/dam/fom-website/drivers/2023Drivers/ocon.jpg",
+          "validated_at_utc": "2026-10-03T07:41:09.637994+00:00",
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        }
+      ],
+      "GAS": [
+        {
+          "team": "Alpine F1 Team",
+          "full_name": "Pierre Gasly",
+          "driver_number": 10,
+          "image_url": "https://media.formula1.com/image/upload/content/dam/fom-website/drivers/2023Drivers/gasly.jpg",
+          "validated_at_utc": "2026-10-03T07:41:10.081163+00:00",
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        }
+      ],
+      "ALB": [
+        {
+          "team": "Williams",
+          "full_name": "Alexander Albon",
+          "driver_number": 23,
+          "image_url": "https://media.formula1.com/image/upload/content/dam/fom-website/drivers/2023Drivers/albon.jpg",
+          "validated_at_utc": "2026-10-03T07:41:10.101672+00:00",
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        }
+      ],
+      "HUL": [
+        {
+          "team": "Haas F1 Team",
+          "full_name": "Nico Hülkenberg",
+          "driver_number": 27,
+          "image_url": "https://media.formula1.com/image/upload/content/dam/fom-website/drivers/2023Drivers/hulkenberg.jpg",
+          "validated_at_utc": "2026-10-03T07:41:10.497735+00:00",
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        }
+      ],
+      "SAR": [
+        {
+          "team": "Williams",
+          "full_name": "Logan Sargeant",
+          "driver_number": 2,
+          "image_url": "https://media.formula1.com/image/upload/content/dam/fom-website/drivers/2023Drivers/sargeant.jpg",
+          "validated_at_utc": "2026-10-03T07:41:10.808609+00:00",
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        }
+      ],
+      "ZHO": [
+        {
+          "team": "Alfa Romeo",
+          "full_name": "Guanyu Zhou",
+          "driver_number": 24,
+          "image_url": "https://media.formula1.com/image/upload/content/dam/fom-website/drivers/2023Drivers/zhou.jpg",
+          "validated_at_utc": "2026-10-03T07:41:10.651822+00:00",
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        }
+      ],
+      "SAI": [
+        {
+          "team": "Ferrari",
+          "full_name": "Carlos Sainz",
+          "driver_number": 55,
+          "image_url": "https://media.formula1.com/image/upload/content/dam/fom-website/drivers/2023Drivers/sainz.jpg",
+          "validated_at_utc": "2026-10-03T07:41:10.791695+00:00",
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        }
+      ],
+      "BOT": [
+        {
+          "team": "Alfa Romeo",
+          "full_name": "Valtteri Bottas",
+          "driver_number": 77,
+          "image_url": "https://media.formula1.com/image/upload/content/dam/fom-website/drivers/2023Drivers/bottas.jpg",
+          "validated_at_utc": "2026-10-03T07:41:11.390967+00:00",
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        }
+      ],
+      "MAG": [
+        {
+          "team": "Haas F1 Team",
+          "full_name": "Kevin Magnussen",
+          "driver_number": 20,
+          "image_url": "https://media.formula1.com/image/upload/content/dam/fom-website/drivers/2023Drivers/magnussen.jpg",
+          "validated_at_utc": "2026-10-03T07:41:11.251657+00:00",
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        }
+      ]
+    },
+    "2024": {
+      "BEA": [
+        {
+          "team": "Ferrari",
+          "full_name": "Oliver Bearman",
+          "driver_number": 38,
+          "image_url": "https://media.formula1.com/image/upload/common/f1/2024/ferrari/olibea01/2024ferrariolibea01right.webp",
+          "validated_at_utc": "2026-10-03T07:41:17.165986+00:00",
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        },
+        {
+          "team": "Haas F1 Team",
+          "full_name": "Oliver Bearman",
+          "driver_number": 50,
+          "image_url": "https://media.formula1.com/image/upload/common/f1/2024/haas/olibea01/2024haasolibea01right.webp",
+          "validated_at_utc": "2026-10-03T07:41:17.438416+00:00",
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        }
+      ],
+      "SAR": [
+        {
+          "team": "Williams",
+          "full_name": "Logan Sargeant",
+          "driver_number": 2,
+          "image_url": "https://media.formula1.com/image/upload/common/f1/2024/williams/logsar01/2024williamslogsar01right.webp",
+          "validated_at_utc": "2026-10-03T07:41:17.182086+00:00",
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        }
+      ],
+      "RIC": [
+        {
+          "team": "RB F1 Team",
+          "full_name": "Daniel Ricciardo",
+          "driver_number": 3,
+          "image_url": "https://media.formula1.com/image/upload/common/f1/2024/rb/danric01/2024rbdanric01right.webp",
+          "validated_at_utc": "2026-10-03T07:41:17.177086+00:00",
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        }
+      ],
+      "OCO": [
+        {
+          "team": "Alpine F1 Team",
+          "full_name": "Esteban Ocon",
+          "driver_number": 31,
+          "image_url": "https://media.formula1.com/image/upload/common/f1/2024/alpine/estoco01/2024alpineestoco01right.webp",
+          "validated_at_utc": "2026-10-03T07:41:17.704919+00:00",
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        }
+      ],
+      "NOR": [
+        {
+          "team": "McLaren",
+          "full_name": "Lando Norris",
+          "driver_number": 4,
+          "image_url": "https://media.formula1.com/image/upload/common/f1/2024/mclaren/lannor01/2024mclarenlannor01right.webp",
+          "validated_at_utc": "2026-10-03T07:41:17.328865+00:00",
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        }
+      ],
+      "SAI": [
+        {
+          "team": "Ferrari",
+          "full_name": "Carlos Sainz",
+          "driver_number": 55,
+          "image_url": "https://media.formula1.com/image/upload/common/f1/2024/ferrari/carsai01/2024ferraricarsai01right.webp",
+          "validated_at_utc": "2026-10-03T07:41:17.290950+00:00",
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        }
+      ],
+      "LEC": [
+        {
+          "team": "Ferrari",
+          "full_name": "Charles Leclerc",
+          "driver_number": 16,
+          "image_url": "https://media.formula1.com/image/upload/common/f1/2024/ferrari/chalec01/2024ferrarichalec01right.webp",
+          "validated_at_utc": "2026-10-03T07:41:17.629775+00:00",
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        }
+      ],
+      "HAM": [
+        {
+          "team": "Mercedes",
+          "full_name": "Lewis Hamilton",
+          "driver_number": 44,
+          "image_url": "https://media.formula1.com/image/upload/common/f1/2024/mercedes/lewham01/2024mercedeslewham01right.webp",
+          "validated_at_utc": "2026-10-03T07:41:17.449417+00:00",
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        }
+      ],
+      "RUS": [
+        {
+          "team": "Mercedes",
+          "full_name": "George Russell",
+          "driver_number": 63,
+          "image_url": "https://media.formula1.com/image/upload/common/f1/2024/mercedes/georus01/2024mercedesgeorus01right.webp",
+          "validated_at_utc": "2026-10-03T07:41:17.547615+00:00",
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        }
+      ],
+      "VER": [
+        {
+          "team": "Red Bull",
+          "full_name": "Max Verstappen",
+          "driver_number": 1,
+          "image_url": "https://media.formula1.com/image/upload/common/f1/2024/redbullracing/maxver01/2024redbullracingmaxver01right.webp",
+          "validated_at_utc": "2026-10-03T07:41:17.908412+00:00",
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        }
+      ],
+      "GAS": [
+        {
+          "team": "Alpine F1 Team",
+          "full_name": "Pierre Gasly",
+          "driver_number": 10,
+          "image_url": "https://media.formula1.com/image/upload/common/f1/2024/alpine/piegas01/2024alpinepiegas01right.webp",
+          "validated_at_utc": "2026-10-03T07:41:17.943649+00:00",
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        }
+      ],
+      "HUL": [
+        {
+          "team": "Haas F1 Team",
+          "full_name": "Nico Hülkenberg",
+          "driver_number": 27,
+          "image_url": "https://media.formula1.com/image/upload/common/f1/2024/haas/nichul01/2024haasnichul01right.webp",
+          "validated_at_utc": "2026-10-03T07:41:18.104728+00:00",
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        }
+      ],
+      "ALO": [
+        {
+          "team": "Aston Martin",
+          "full_name": "Fernando Alonso",
+          "driver_number": 14,
+          "image_url": "https://media.formula1.com/image/upload/common/f1/2024/astonmartin/feralo01/2024astonmartinferalo01right.webp",
+          "validated_at_utc": "2026-10-03T07:41:18.116731+00:00",
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        }
+      ],
+      "PIA": [
+        {
+          "team": "McLaren",
+          "full_name": "Oscar Piastri",
+          "driver_number": 81,
+          "image_url": "https://media.formula1.com/image/upload/common/f1/2024/mclaren/oscpia01/2024mclarenoscpia01right.webp",
+          "validated_at_utc": "2026-10-03T07:41:17.993199+00:00",
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        }
+      ],
+      "ALB": [
+        {
+          "team": "Williams",
+          "full_name": "Alexander Albon",
+          "driver_number": 23,
+          "image_url": "https://media.formula1.com/image/upload/common/f1/2024/williams/alealb01/2024williamsalealb01right.webp",
+          "validated_at_utc": "2026-10-03T07:41:18.037842+00:00",
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        }
+      ],
+      "TSU": [
+        {
+          "team": "RB F1 Team",
+          "full_name": "Yuki Tsunoda",
+          "driver_number": 22,
+          "image_url": "https://media.formula1.com/image/upload/common/f1/2024/rb/yuktsu01/2024rbyuktsu01right.webp",
+          "validated_at_utc": "2026-10-03T07:41:18.060354+00:00",
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        }
+      ],
+      "ZHO": [
+        {
+          "team": "Sauber",
+          "full_name": "Guanyu Zhou",
+          "driver_number": 24,
+          "image_url": "https://media.formula1.com/image/upload/content/dam/fom-website/drivers/2024Drivers/zhou.jpg",
+          "validated_at_utc": "2026-10-03T07:41:19.182957+00:00",
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        }
+      ],
+      "STR": [
+        {
+          "team": "Aston Martin",
+          "full_name": "Lance Stroll",
+          "driver_number": 18,
+          "image_url": "https://media.formula1.com/image/upload/common/f1/2024/astonmartin/lanstr01/2024astonmartinlanstr01right.webp",
+          "validated_at_utc": "2026-10-03T07:41:18.156343+00:00",
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        }
+      ],
+      "DOO": [
+        {
+          "team": "Alpine F1 Team",
+          "full_name": "Jack Doohan",
+          "driver_number": 61,
+          "image_url": null,
+          "validated_at_utc": null,
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        }
+      ],
+      "MAG": [
+        {
+          "team": "Haas F1 Team",
+          "full_name": "Kevin Magnussen",
+          "driver_number": 20,
+          "image_url": "https://media.formula1.com/image/upload/common/f1/2024/haas/kevmag01/2024haaskevmag01right.webp",
+          "validated_at_utc": "2026-10-03T07:41:18.479175+00:00",
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        }
+      ],
+      "LAW": [
+        {
+          "team": "RB F1 Team",
+          "full_name": "Liam Lawson",
+          "driver_number": 30,
+          "image_url": "https://media.formula1.com/image/upload/common/f1/2024/rb/lialaw01/2024rblialaw01right.webp",
+          "validated_at_utc": "2026-10-03T07:41:18.518260+00:00",
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        }
+      ],
+      "BOT": [
+        {
+          "team": "Sauber",
+          "full_name": "Valtteri Bottas",
+          "driver_number": 77,
+          "image_url": "https://media.formula1.com/image/upload/content/dam/fom-website/drivers/2024Drivers/bottas.jpg",
+          "validated_at_utc": "2026-10-03T07:41:18.640998+00:00",
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        }
+      ],
+      "COL": [
+        {
+          "team": "Williams",
+          "full_name": "Franco Colapinto",
+          "driver_number": 43,
+          "image_url": "https://media.formula1.com/image/upload/common/f1/2024/williams/fracol01/2024williamsfracol01right.webp",
+          "validated_at_utc": "2026-10-03T07:41:18.959961+00:00",
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        }
+      ],
+      "PER": [
+        {
+          "team": "Red Bull",
+          "full_name": "Sergio Pérez",
+          "driver_number": 11,
+          "image_url": "https://media.formula1.com/image/upload/common/f1/2024/redbullracing/serper01/2024redbullracingserper01right.webp",
+          "validated_at_utc": "2026-10-03T07:41:19.002100+00:00",
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        }
+      ]
+    },
+    "2025": {
+      "LAW": [
+        {
+          "team": "Red Bull",
+          "full_name": "Liam Lawson",
+          "driver_number": 30,
+          "image_url": "https://media.formula1.com/image/upload/common/f1/2025/redbullracing/lialaw01/2025redbullracinglialaw01right.webp",
+          "validated_at_utc": "2026-10-03T07:41:25.715728+00:00",
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        },
+        {
+          "team": "RB F1 Team",
+          "full_name": "Liam Lawson",
+          "driver_number": 30,
+          "image_url": "https://media.formula1.com/image/upload/common/f1/2025/racingbulls/lialaw01/2025racingbullslialaw01right.webp",
+          "validated_at_utc": "2026-10-03T07:41:26.973808+00:00",
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        }
+      ],
+      "TSU": [
+        {
+          "team": "RB F1 Team",
+          "full_name": "Yuki Tsunoda",
+          "driver_number": 22,
+          "image_url": "https://media.formula1.com/image/upload/common/f1/2025/racingbulls/yuktsu01/2025racingbullsyuktsu01right.webp",
+          "validated_at_utc": "2026-10-03T07:41:25.664219+00:00",
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        },
+        {
+          "team": "Red Bull",
+          "full_name": "Yuki Tsunoda",
+          "driver_number": 22,
+          "image_url": "https://media.formula1.com/image/upload/common/f1/2025/redbullracing/yuktsu01/2025redbullracingyuktsu01right.webp",
+          "validated_at_utc": "2026-10-03T07:41:26.559084+00:00",
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        }
+      ],
+      "DOO": [
+        {
+          "team": "Alpine F1 Team",
+          "full_name": "Jack Doohan",
+          "driver_number": 7,
+          "image_url": "https://media.formula1.com/image/upload/common/f1/2025/alpine/jacdoo01/2025alpinejacdoo01right.webp",
+          "validated_at_utc": "2026-10-03T07:41:25.587314+00:00",
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        }
+      ],
+      "VER": [
+        {
+          "team": "Red Bull",
+          "full_name": "Max Verstappen",
+          "driver_number": 1,
+          "image_url": "https://media.formula1.com/image/upload/common/f1/2025/redbullracing/maxver01/2025redbullracingmaxver01right.webp",
+          "validated_at_utc": "2026-10-03T07:41:25.678217+00:00",
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        }
+      ],
+      "PIA": [
+        {
+          "team": "McLaren",
+          "full_name": "Oscar Piastri",
+          "driver_number": 81,
+          "image_url": "https://media.formula1.com/image/upload/common/f1/2025/mclaren/oscpia01/2025mclarenoscpia01right.webp",
+          "validated_at_utc": "2026-10-03T07:41:25.679218+00:00",
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        }
+      ],
+      "NOR": [
+        {
+          "team": "McLaren",
+          "full_name": "Lando Norris",
+          "driver_number": 4,
+          "image_url": "https://media.formula1.com/image/upload/common/f1/2025/mclaren/lannor01/2025mclarenlannor01right.webp",
+          "validated_at_utc": "2026-10-03T07:41:25.718728+00:00",
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        }
+      ],
+      "LEC": [
+        {
+          "team": "Ferrari",
+          "full_name": "Charles Leclerc",
+          "driver_number": 16,
+          "image_url": "https://media.formula1.com/image/upload/common/f1/2025/ferrari/chalec01/2025ferrarichalec01right.webp",
+          "validated_at_utc": "2026-10-03T07:41:26.020489+00:00",
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        }
+      ],
+      "RUS": [
+        {
+          "team": "Mercedes",
+          "full_name": "George Russell",
+          "driver_number": 63,
+          "image_url": "https://media.formula1.com/image/upload/common/f1/2025/mercedes/georus01/2025mercedesgeorus01right.webp",
+          "validated_at_utc": "2026-10-03T07:41:25.772747+00:00",
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        }
+      ],
+      "ALO": [
+        {
+          "team": "Aston Martin",
+          "full_name": "Fernando Alonso",
+          "driver_number": 14,
+          "image_url": "https://media.formula1.com/image/upload/common/f1/2025/astonmartin/feralo01/2025astonmartinferalo01right.webp",
+          "validated_at_utc": "2026-10-03T07:41:25.808747+00:00",
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        }
+      ],
+      "OCO": [
+        {
+          "team": "Haas F1 Team",
+          "full_name": "Esteban Ocon",
+          "driver_number": 31,
+          "image_url": "https://media.formula1.com/image/upload/common/f1/2025/haas/estoco01/2025haasestoco01right.webp",
+          "validated_at_utc": "2026-10-03T07:41:26.689763+00:00",
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        }
+      ],
+      "HAM": [
+        {
+          "team": "Ferrari",
+          "full_name": "Lewis Hamilton",
+          "driver_number": 44,
+          "image_url": "https://media.formula1.com/image/upload/common/f1/2025/ferrari/lewham01/2025ferrarilewham01right.webp",
+          "validated_at_utc": "2026-10-03T07:41:25.878416+00:00",
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        }
+      ],
+      "HUL": [
+        {
+          "team": "Sauber",
+          "full_name": "Nico Hülkenberg",
+          "driver_number": 27,
+          "image_url": "https://media.formula1.com/image/upload/content/dam/fom-website/drivers/2025Drivers/hulkenberg.jpg",
+          "validated_at_utc": "2026-10-03T07:41:26.026489+00:00",
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        }
+      ],
+      "STR": [
+        {
+          "team": "Aston Martin",
+          "full_name": "Lance Stroll",
+          "driver_number": 18,
+          "image_url": "https://media.formula1.com/image/upload/common/f1/2025/astonmartin/lanstr01/2025astonmartinlanstr01right.webp",
+          "validated_at_utc": "2026-10-03T07:41:25.966490+00:00",
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        }
+      ],
+      "BOR": [
+        {
+          "team": "Sauber",
+          "full_name": "Gabriel Bortoleto",
+          "driver_number": 5,
+          "image_url": "https://media.formula1.com/image/upload/content/dam/fom-website/drivers/2025Drivers/bortoleto.jpg",
+          "validated_at_utc": "2026-10-03T07:41:27.135756+00:00",
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        }
+      ],
+      "BEA": [
+        {
+          "team": "Haas F1 Team",
+          "full_name": "Oliver Bearman",
+          "driver_number": 87,
+          "image_url": "https://media.formula1.com/image/upload/common/f1/2025/haas/olibea01/2025haasolibea01right.webp",
+          "validated_at_utc": "2026-10-03T07:41:26.414501+00:00",
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        }
+      ],
+      "SAI": [
+        {
+          "team": "Williams",
+          "full_name": "Carlos Sainz",
+          "driver_number": 55,
+          "image_url": "https://media.formula1.com/image/upload/common/f1/2025/williams/carsai01/2025williamscarsai01right.webp",
+          "validated_at_utc": "2026-10-03T07:41:26.155391+00:00",
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        }
+      ],
+      "ANT": [
+        {
+          "team": "Mercedes",
+          "full_name": "Andrea Kimi Antonelli",
+          "driver_number": 12,
+          "image_url": "https://media.formula1.com/image/upload/common/f1/2025/mercedes/andant01/2025mercedesandant01right.webp",
+          "validated_at_utc": "2026-10-03T07:41:26.483725+00:00",
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        }
+      ],
+      "ALB": [
+        {
+          "team": "Williams",
+          "full_name": "Alexander Albon",
+          "driver_number": 23,
+          "image_url": "https://media.formula1.com/image/upload/common/f1/2025/williams/alealb01/2025williamsalealb01right.webp",
+          "validated_at_utc": "2026-10-03T07:41:26.590074+00:00",
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        }
+      ],
+      "HAD": [
+        {
+          "team": "RB F1 Team",
+          "full_name": "Isack Hadjar",
+          "driver_number": 6,
+          "image_url": "https://media.formula1.com/image/upload/common/f1/2025/racingbulls/isahad01/2025racingbullsisahad01right.webp",
+          "validated_at_utc": "2026-10-03T07:41:27.022735+00:00",
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        }
+      ],
+      "GAS": [
+        {
+          "team": "Alpine F1 Team",
+          "full_name": "Pierre Gasly",
+          "driver_number": 10,
+          "image_url": "https://media.formula1.com/image/upload/common/f1/2025/alpine/piegas01/2025alpinepiegas01right.webp",
+          "validated_at_utc": "2026-10-03T07:41:27.212166+00:00",
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        }
+      ],
+      "COL": [
+        {
+          "team": "Alpine F1 Team",
+          "full_name": "Franco Colapinto",
+          "driver_number": 43,
+          "image_url": "https://media.formula1.com/image/upload/common/f1/2025/alpine/fracol01/2025alpinefracol01right.webp",
+          "validated_at_utc": "2026-10-03T07:41:27.440239+00:00",
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        }
+      ]
+    },
+    "2026": {
+      "LAW": [
+        {
+          "team": "Red Bull",
+          "full_name": "Liam Lawson",
+          "driver_number": 30,
+          "image_url": "https://media.formula1.com/image/upload/common/f1/2026/redbullracing/lialaw01/2026redbullracinglialaw01right.webp",
+          "validated_at_utc": "2026-10-03T07:41:31.522261+00:00",
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        },
+        {
+          "team": "RB F1 Team",
+          "full_name": "Liam Lawson",
+          "driver_number": 30,
+          "image_url": "https://media.formula1.com/image/upload/c_fill,w_720/q_auto/v1740000001/common/f1/2026/racingbulls/lialaw01/2026racingbullslialaw01right.webp",
+          "validated_at_utc": "2026-10-03T07:41:31.644631+00:00",
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        }
+      ],
+      "TSU": [
+        {
+          "team": "RB F1 Team",
+          "full_name": "Yuki Tsunoda",
+          "driver_number": 22,
+          "image_url": "https://media.formula1.com/image/upload/common/f1/2026/racingbulls/yuktsu01/2026racingbullsyuktsu01right.webp",
+          "validated_at_utc": "2026-10-03T07:41:31.582625+00:00",
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        }
+      ],
+      "RUS": [
+        {
+          "team": "Mercedes",
+          "full_name": "George Russell",
+          "driver_number": 63,
+          "image_url": "https://media.formula1.com/image/upload/c_fill,w_720/q_auto/v1740000001/common/f1/2026/mercedes/georus01/2026mercedesgeorus01right.webp",
+          "validated_at_utc": "2026-10-03T07:41:31.174236+00:00",
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        }
+      ],
+      "VER": [
+        {
+          "team": "Red Bull",
+          "full_name": "Max Verstappen",
+          "driver_number": 3,
+          "image_url": "https://media.formula1.com/image/upload/c_fill,w_720/q_auto/v1740000001/common/f1/2026/redbullracing/maxver01/2026redbullracingmaxver01right.webp",
+          "validated_at_utc": "2026-10-03T07:41:31.191325+00:00",
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        }
+      ],
+      "HAD": [
+        {
+          "team": "Red Bull",
+          "full_name": "Isack Hadjar",
+          "driver_number": 6,
+          "image_url": "https://media.formula1.com/image/upload/c_fill,w_720/q_auto/v1740000001/common/f1/2026/redbullracing/isahad01/2026redbullracingisahad01right.webp",
+          "validated_at_utc": "2026-10-03T07:41:31.510255+00:00",
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        }
+      ],
+      "LEC": [
+        {
+          "team": "Ferrari",
+          "full_name": "Charles Leclerc",
+          "driver_number": 16,
+          "image_url": "https://media.formula1.com/image/upload/c_fill,w_720/q_auto/v1740000001/common/f1/2026/ferrari/chalec01/2026ferrarichalec01right.webp",
+          "validated_at_utc": "2026-10-03T07:41:31.257350+00:00",
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        }
+      ],
+      "ANT": [
+        {
+          "team": "Mercedes",
+          "full_name": "Andrea Kimi Antonelli",
+          "driver_number": 12,
+          "image_url": "https://media.formula1.com/image/upload/c_fill,w_720/q_auto/v1740000001/common/f1/2026/mercedes/andant01/2026mercedesandant01right.webp",
+          "validated_at_utc": "2026-10-03T07:41:31.311678+00:00",
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        }
+      ],
+      "HAM": [
+        {
+          "team": "Ferrari",
+          "full_name": "Lewis Hamilton",
+          "driver_number": 44,
+          "image_url": "https://media.formula1.com/image/upload/c_fill,w_720/q_auto/v1740000001/common/f1/2026/ferrari/lewham01/2026ferrarilewham01right.webp",
+          "validated_at_utc": "2026-10-03T07:41:31.401924+00:00",
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        }
+      ],
+      "LIN": [
+        {
+          "team": "RB F1 Team",
+          "full_name": "Arvid Lindblad",
+          "driver_number": 41,
+          "image_url": "https://media.formula1.com/image/upload/c_fill,w_720/q_auto/v1740000001/common/f1/2026/racingbulls/arvlin01/2026racingbullsarvlin01right.webp",
+          "validated_at_utc": "2026-10-03T07:41:31.474253+00:00",
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        }
+      ],
+      "OCO": [
+        {
+          "team": "Haas F1 Team",
+          "full_name": "Esteban Ocon",
+          "driver_number": 31,
+          "image_url": "https://media.formula1.com/image/upload/c_fill,w_720/q_auto/v1740000001/common/f1/2026/haas/estoco01/2026haasestoco01right.webp",
+          "validated_at_utc": "2026-10-03T07:41:31.572623+00:00",
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        }
+      ],
+      "BEA": [
+        {
+          "team": "Haas F1 Team",
+          "full_name": "Oliver Bearman",
+          "driver_number": 87,
+          "image_url": "https://media.formula1.com/image/upload/c_fill,w_720/q_auto/v1740000001/common/f1/2026/haas/olibea01/2026haasolibea01right.webp",
+          "validated_at_utc": "2026-10-03T07:41:31.577623+00:00",
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        }
+      ],
+      "SAI": [
+        {
+          "team": "Williams",
+          "full_name": "Carlos Sainz",
+          "driver_number": 55,
+          "image_url": "https://media.formula1.com/image/upload/c_fill,w_720/q_auto/v1740000001/common/f1/2026/williams/carsai01/2026williamscarsai01right.webp",
+          "validated_at_utc": "2026-10-03T07:41:31.627623+00:00",
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        }
+      ],
+      "HUL": [
+        {
+          "team": "Audi",
+          "full_name": "Nico Hülkenberg",
+          "driver_number": 27,
+          "image_url": "https://media.formula1.com/image/upload/c_fill,w_720/q_auto/v1740000001/common/f1/2026/audi/nichul01/2026audinichul01right.webp",
+          "validated_at_utc": "2026-10-03T07:41:31.628623+00:00",
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        }
+      ],
+      "PIA": [
+        {
+          "team": "McLaren",
+          "full_name": "Oscar Piastri",
+          "driver_number": 81,
+          "image_url": "https://media.formula1.com/image/upload/c_fill,w_720/q_auto/v1740000001/common/f1/2026/mclaren/oscpia01/2026mclarenoscpia01right.webp",
+          "validated_at_utc": "2026-10-03T07:41:31.668148+00:00",
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        }
+      ],
+      "PER": [
+        {
+          "team": "Cadillac F1 Team",
+          "full_name": "Sergio Pérez",
+          "driver_number": 11,
+          "image_url": "https://media.formula1.com/image/upload/c_fill,w_720/q_auto/v1740000001/common/f1/2026/cadillac/serper01/2026cadillacserper01right.webp",
+          "validated_at_utc": "2026-10-03T07:41:32.233819+00:00",
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        }
+      ],
+      "BOR": [
+        {
+          "team": "Audi",
+          "full_name": "Gabriel Bortoleto",
+          "driver_number": 5,
+          "image_url": "https://media.formula1.com/image/upload/c_fill,w_720/q_auto/v1740000001/common/f1/2026/audi/gabbor01/2026audigabbor01right.webp",
+          "validated_at_utc": "2026-10-03T07:41:31.704146+00:00",
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        }
+      ],
+      "BOT": [
+        {
+          "team": "Cadillac F1 Team",
+          "full_name": "Valtteri Bottas",
+          "driver_number": 77,
+          "image_url": "https://media.formula1.com/image/upload/c_fill,w_720/q_auto/v1740000001/common/f1/2026/cadillac/valbot01/2026cadillacvalbot01right.webp",
+          "validated_at_utc": "2026-10-03T07:41:32.089225+00:00",
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        }
+      ],
+      "COL": [
+        {
+          "team": "Alpine F1 Team",
+          "full_name": "Franco Colapinto",
+          "driver_number": 43,
+          "image_url": "https://media.formula1.com/image/upload/c_fill,w_720/q_auto/v1740000001/common/f1/2026/alpine/fracol01/2026alpinefracol01right.webp",
+          "validated_at_utc": "2026-10-03T07:41:31.845041+00:00",
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        }
+      ],
+      "GAS": [
+        {
+          "team": "Alpine F1 Team",
+          "full_name": "Pierre Gasly",
+          "driver_number": 10,
+          "image_url": "https://media.formula1.com/image/upload/c_fill,w_720/q_auto/v1740000001/common/f1/2026/alpine/piegas01/2026alpinepiegas01right.webp",
+          "validated_at_utc": "2026-10-03T07:41:31.788977+00:00",
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        }
+      ],
+      "NOR": [
+        {
+          "team": "McLaren",
+          "full_name": "Lando Norris",
+          "driver_number": 1,
+          "image_url": "https://media.formula1.com/image/upload/c_fill,w_720/q_auto/v1740000001/common/f1/2026/mclaren/lannor01/2026mclarenlannor01right.webp",
+          "validated_at_utc": "2026-10-03T07:41:31.843042+00:00",
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        }
+      ],
+      "ALB": [
+        {
+          "team": "Williams",
+          "full_name": "Alexander Albon",
+          "driver_number": 23,
+          "image_url": "https://media.formula1.com/image/upload/c_fill,w_720/q_auto/v1740000001/common/f1/2026/williams/alealb01/2026williamsalealb01right.webp",
+          "validated_at_utc": "2026-10-03T07:41:31.928856+00:00",
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        }
+      ],
+      "ALO": [
+        {
+          "team": "Aston Martin",
+          "full_name": "Fernando Alonso",
+          "driver_number": 14,
+          "image_url": "https://media.formula1.com/image/upload/c_fill,w_720/q_auto/v1740000001/common/f1/2026/astonmartin/feralo01/2026astonmartinferalo01right.webp",
+          "validated_at_utc": "2026-10-03T07:41:31.898798+00:00",
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        }
+      ],
+      "STR": [
+        {
+          "team": "Aston Martin",
+          "full_name": "Lance Stroll",
+          "driver_number": 18,
+          "image_url": "https://media.formula1.com/image/upload/c_fill,w_720/q_auto/v1740000001/common/f1/2026/astonmartin/lanstr01/2026astonmartinlanstr01right.webp",
+          "validated_at_utc": "2026-10-03T07:41:32.011577+00:00",
+          "source": "Official F1 season asset; roster from FastF1 Ergast/Jolpica"
+        }
+      ]
+    }
+  }
+}
