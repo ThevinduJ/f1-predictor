@@ -168,3 +168,71 @@ Next: collect more complete seasons, normalize team identities, incorporate
 verified future entries and sprint points, add walk-forward multi-season
 backtests and ranking baselines, then introduce circuit-specific history and
 available qualifying/grid with an explicit forecast-time cutoff.
+
+
+## Interface and driver profiles
+
+The top navigation opens Race Predictor, Race Analysis (including driver
+comparison), and Model Insights. Prediction results persist across theme and
+page reruns; changing the race, entry list, history size, or model invalidates
+the displayed result until a fresh prediction is requested. The ML modules and
+saved model are unaffected by UI theme changes.
+
+`src/theme.py` owns light/dark CSS variables, responsive layout and Matplotlib
+colors. The floating sun/moon button at the bottom-right saves the theme in Streamlit session state.
+`src/ui_components.py` owns reusable podium/grid/comparison cards, headers,
+exact-value tables, and model-management UI. Cards expose profile details on
+hover or keyboard focus; touch users can tap a card and tap outside to dismiss.
+
+`src/driver_data.py` owns the driver-to-official-profile lookup, team accents,
+metadata parsing, age calculation, and source validation. Image URLs, birth
+dates and published career wins/podiums are stored centrally in the small
+`src/driver_profiles.json` snapshot, with source URLs and retrieval timestamps.
+These are official profile facts, not totals extrapolated from our partial
+2024–2026 ML dataset. Ages are calculated from birth dates using today's date
+in Australia/Sydney. Snapshot reads are cached; rendering never fetches profiles
+or loads a FastF1 session. Images load lazily in the browser from F1's CDN.
+
+To explicitly update the bounded list of driver profiles:
+
+```powershell
+python -m src.driver_data --refresh
+```
+
+The profile list includes current drivers plus a historical lookup where available.
+If an official profile disappears or changes layout, refresh preserves the last
+successful record. Unknown drivers get a neutral silhouette and unavailable
+statistics; metadata is never fabricated. All HTML text is escaped, image URLs
+are restricted to official Formula 1 hosts, and no remote scripts are injected.
+
+Official F1 portrait URLs may change or be blocked by a browser/network policy.
+A failed image cannot block predictions; card text and neutral backgrounds remain
+usable. Career statistics are a dated snapshot and should be refreshed periodically.
+Some canvas-based Streamlit table controls retain framework styling; the exact
+prediction table uses themed HTML, and chart colors follow the selected theme.
+CSS selectors for native widgets may need adjustment after a future Streamlit update.
+
+### Race Results archive
+
+Open **Race Results** in the top navigation to browse published races. The page
+chooses the latest season with results and its newest completed race by default.
+It includes the podium and full classification cards, a sortable results table,
+grid-to-finish movement chart, fastest laps, constructor totals, factual race
+insights, actual tyre stints, and an optional selected-driver progression chart.
+The existing floating theme button also themes these cards, tables and charts.
+
+`src/race_results.py` obtains the list of completed races through FastF1's
+Ergast/Jolpica interface (winner results only). It shares a cached race session
+with Race Analysis, with FastF1's persistent cache still under `data/`. Published
+event lists are cached for 15 minutes; loaded sessions and processed result
+bundles are cached for an hour, with bounded cache sizes. Theme changes and chart
+selection reuse the processed bundle instead of loading sessions again.
+
+The archive offers seasons back to 1950, subject to the upstream results service.
+Detailed timing, stints and lap positions are generally available from 2018.
+Unavailable sections are omitted or marked N/A. Grid 0 is a pit-lane start and
+has no calculated positions-changed value. DNFs count retirements, including
+classified retirees, but exclude disqualifications and non-starters. The pole
+metric reflects grid P1, which may differ from the qualifying winner after
+penalties. Race points exclude sprint points. Hover profiles use the existing
+current official-site snapshot, not career statistics as of the historical race.

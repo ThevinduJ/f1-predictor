@@ -196,18 +196,34 @@ class StreamlitTests(unittest.TestCase):
                  patch.object(fastf1.plotting, "driver_color", return_value="#ff0000", create=True), \
                  patch("src.data_collection.load_history", return_value=history), \
                  patch("src.predict.load_model", return_value=fitted), \
-                 patch("src.predict.upcoming_events", return_value=schedule):
+                 patch("src.predict.upcoming_events", return_value=pd.DataFrame(schedule)):
                 app = AppTest.from_file(str(dc.ROOT / "app.py")).run(timeout=30)
                 self.assertFalse(app.exception, [e.message for e in app.exception])
+                next(radio for radio in app.radio if radio.label == "Navigation").set_value("Race Analysis").run(timeout=30)
                 self.assertEqual([tab.label for tab in app.tabs],
                                  ["Telemetry", "Tire Degradation", "Track Map", "Sector Times", "Weather"])
-                app.sidebar.radio[0].set_value("Race Predictor").run(timeout=30)
+                next(radio for radio in app.radio if radio.label == "Navigation").set_value("Race Predictor").run(timeout=30)
                 self.assertFalse(app.exception, [e.message for e in app.exception])
                 self.assertEqual(len(app.metric), 3)
                 button = next(button for button in app.button if button.label == "Predict finishing order")
                 button.click().run(timeout=30)
                 self.assertFalse(app.exception, [e.message for e in app.exception])
-                self.assertTrue(any("ML predicted classification" in title.value for title in app.subheader))
+                self.assertIn("prediction_output", app.session_state)
+                output = app.session_state["prediction_output"]["result"].copy()
+                self.assertFalse(any(box.label == "Appearance" for box in app.selectbox))
+                self.assertEqual(app.session_state['ui_theme'], 'Dark Mode')
+                next(button for button in app.button if button.key == "floating_theme_toggle").click().run(timeout=30)
+                self.assertFalse(app.exception, [e.message for e in app.exception])
+                self.assertEqual(app.session_state['ui_theme'], 'Light Mode')
+                pd.testing.assert_frame_equal(output, app.session_state['prediction_output']['result'])
+                card_markup = '\n'.join(element.value for element in app.markdown)
+                self.assertIn('Predicted podium', card_markup)
+                self.assertIn('P1', card_markup)
+                next(button for button in app.button if button.key == "floating_theme_toggle").click().run(timeout=30)
+                self.assertEqual(app.session_state['ui_theme'], 'Dark Mode')
+                app.run(timeout=30)
+                self.assertEqual(app.session_state['ui_theme'], 'Dark Mode')
+                pd.testing.assert_frame_equal(output, app.session_state['prediction_output']['result'])
 
 
 if __name__ == "__main__":
