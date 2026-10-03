@@ -14,6 +14,17 @@ __pycache__/
 cache/
 .fastf1/
 
+# Ignore downloaded FastF1 caches, but leave a separate processed-data namespace.
+data/*
+!data/processed/
+data/processed/races/
+data/processed/*.csv
+# Small reviewed fixtures/metadata under data/processed/ can be committed.
+
+# Generated models and evaluation artifacts are reproducible by training.
+models/*
+!models/.gitkeep
+
 # VS Code
 .vscode/
 

@@ -1,8 +1,15 @@
 import fastf1
 import streamlit as st
-import matplotlib.pyplot as plt
+import matplotlib
 
-fastf1.Cache.enable_cache('./data')
+# Streamlit renders figures in the browser; no Windows/Tk GUI backend is needed.
+matplotlib.use("Agg")
+import matplotlib.pyplot as plt
+from pathlib import Path
+
+PROJECT_DIR = Path(__file__).resolve().parent
+(PROJECT_DIR / 'data').mkdir(exist_ok=True)
+fastf1.Cache.enable_cache(str(PROJECT_DIR / 'data'))
 
 from datetime import datetime
 from zoneinfo import ZoneInfo
@@ -11,8 +18,14 @@ import fastf1.plotting
 import numpy as np
 import pandas as pd
 
+from src.data_collection import collect_history, load_history
+from src.predict import latest_entrants, load_model, predict_race, upcoming_events
+from src.train_model import train_model
+from src.train_model import SAMPLE_RECENCY_DECAY
+from src.features import RECENCY_DECAY
 
-st.set_page_config(page_title="F1 Driver Comparison", page_icon="🏎️", layout="wide")
+
+st.set_page_config(page_title="F1 Predictor & Analysis", page_icon="🏎️", layout="wide")
 fastf1.plotting.setup_mpl()
 plt.style.use("dark_background")
 
@@ -54,7 +67,133 @@ def driver_color(driver, session, fallback):
         return fallback
 
 
-def main():
+def predictor_training(today):
+    with st.expander("Collect historical data and train", expanded=False):
+        st.caption("First download can take several minutes. Successful races are cached. "
+                   "Training holds out the latest collected season, then refits on all history.")
+        seasons = st.multiselect("Historical seasons", list(range(today.year, 2017, -1)),
+                                 default=[today.year - 3, today.year - 2, today.year - 1])
+        include_laps = st.checkbox("Also collect fastest lap times (slower)", value=False)
+        available_history = load_history()
+        historical_seasons = sorted(available_history["season"].dropna().astype(int).unique()) if not available_history.empty else []
+        validation_season = None
+        if len(historical_seasons) >= 2:
+            try:
+                _, saved = load_model()
+                preferred = saved["validation_season"]
+            except (FileNotFoundError, ValueError):
+                preferred = historical_seasons[-1]
+            candidates = historical_seasons[1:]
+            validation_season = st.selectbox("Validation season", candidates,
+                index=candidates.index(preferred) if preferred in candidates else len(candidates) - 1)
+        feature_decay = st.number_input("Feature decay per prior race", min_value=0.0,
+                                       value=RECENCY_DECAY, step=0.05)
+        sample_decay = st.number_input("Training weight decay per race", min_value=0.0,
+                                      value=SAMPLE_RECENCY_DECAY, step=0.005, format="%.3f")
+        st.caption("Decay changes take effect after retraining. Later seasons are excluded from holdout fitting, "
+                   "but included in the final production refit.")
+        if st.button("Collect / update history"):
+            if not seasons:
+                st.error("Select at least one historical season.")
+            else:
+                status = st.empty()
+                with st.spinner("Collecting completed races…"):
+                    history, issues = collect_history(seasons, include_laps=include_laps,
+                                                       progress=status.caption)
+                status.empty()
+                st.success(f"Stored {len(history)} driver/race records.")
+                if issues:
+                    st.warning(f"Skipped {len(issues)} unavailable races/schedules; they can be retried.")
+                    st.text("\n".join(issues))
+        if st.button("Train XGBoost model"):
+            try:
+                with st.spinner("Training and evaluating…"):
+                    train_model(load_history(), validation_season=validation_season,
+                                sample_decay=sample_decay, feature_decay=feature_decay)
+                st.success("Model and evaluation saved.")
+            except (ValueError, OSError) as exc:
+                st.error(str(exc))
+
+
+def model_evaluation(metadata):
+    metrics = metadata["metrics"]
+    st.caption(f"Holdout season: {metadata['validation_season']} · "
+               f"{metadata['validation_races']} races · {metadata['validation_rows']} driver results")
+    left, middle, right = st.columns(3)
+    left.metric("Score MAE", f"{metrics['mae']:.2f} positions")
+    middle.metric("Score RMSE", f"{metrics['rmse']:.2f} positions")
+    right.metric("Rank MAE", f"{metrics['rank_mae']:.2f} positions")
+    with st.expander("Evaluation and feature importance"):
+        st.write(metadata["validation_protocol"])
+        st.write(f"Previous-five-race mean baseline MAE: {metrics['baseline_mae']:.2f}")
+        if "comparison" in metadata:
+            comparison = metadata["comparison"]
+            st.write("Same-split comparison against the original features and unweighted training:")
+            st.dataframe(pd.DataFrame({name: comparison[name] for name in ("old", "new")}).T,
+                         width="stretch")
+            st.caption(f"New form features receive {metadata['recent_feature_total_gain_share']:.1%} of production split gain. "
+                       f"Feature decay: {metadata['feature_recency_decay']:.3f}; training decay: {metadata['sample_recency_decay']:.3f}.")
+        importance = pd.Series(metadata["feature_importance_gain"], name="Gain").sort_values(ascending=False)
+        st.dataframe(importance.to_frame(), width="stretch")
+        st.caption("Gain describes the fitted model's split importance; it is not causal evidence.")
+
+
+def predictor_page():
+    st.title("Race Predictor")
+    st.caption("ML prediction: XGBoost scores sorted into a finishing order. Lower score means "
+               "a better expected finish; scores are not probabilities.")
+    today = datetime.now(ZoneInfo("Australia/Sydney"))
+    predictor_training(today)
+    history = load_history()
+    if history.empty:
+        st.info("Collect historical races using the panel above, then train a model.")
+        return
+    try:
+        _, metadata = load_model()
+    except (FileNotFoundError, ValueError) as exc:
+        st.info(str(exc))
+        return
+    model_evaluation(metadata)
+    boundary = metadata["trained_through"]
+    st.caption(f"Production model trained through {boundary['season']} round {boundary['round']}.")
+    season = st.selectbox("Prediction season", [today.year, today.year + 1])
+    try:
+        events = upcoming_events(season)
+    except Exception as exc:
+        st.error(f"Could not load upcoming events: {exc}")
+        return
+    if events.empty:
+        st.info("No upcoming races have been published for this season.")
+        return
+    names = dict(zip(events["RoundNumber"].astype(int), events["EventName"]))
+    round_number = st.selectbox("Upcoming race", list(names), format_func=lambda number: names[number])
+    try:
+        roster = latest_entrants(history, season, round_number)
+    except ValueError as exc:
+        st.error(str(exc))
+        return
+    latest = history.sort_values(["season", "round"]).iloc[-1]
+    st.caption(f"History available through {int(latest['season'])} round {int(latest['round'])}. "
+               "Collect the current season to update driver form before predicting.")
+    st.warning("The entry list below assumes the latest completed race roster. "
+               "Confirm drivers and teams for the selected race; add/remove replacements as needed.")
+    entries = st.data_editor(roster, num_rows="dynamic", hide_index=True, width="stretch",
+                             key=f"entries_{season}_{round_number}_{len(history)}")
+    if st.button("Predict finishing order", type="primary"):
+        try:
+            result = predict_race(history, season, round_number, entrants=entries)
+        except (ValueError, OSError) as exc:
+            st.error(str(exc))
+            return
+        st.subheader(f"ML predicted classification · {season} {names[round_number]}")
+        st.dataframe(result.style.format({"Predicted Score": "{:.2f}"}), hide_index=True, width="stretch")
+        st.caption("Deterministic ranking for the supplied entry list. No uncertainty estimates are calculated. "
+                   "Historical race points exclude sprint points and championship penalties.")
+        st.download_button("Download prediction CSV", result.to_csv(index=False),
+                           file_name=f"prediction_{season}_{round_number}.csv", mime="text/csv", on_click="ignore")
+
+
+def analysis_page():
     st.title("F1 Driver Comparison")
     st.caption("Compare race telemetry, tyre life, fastest-lap sectors, and weather.")
 
@@ -219,6 +358,14 @@ def main():
             ax.grid(alpha=0.2)
             ax.legend()
             show_plot(fig)
+
+
+def main():
+    page = st.sidebar.radio("Page", ["Race Analysis", "Race Predictor"])
+    if page == "Race Predictor":
+        predictor_page()
+    else:
+        analysis_page()
 
 
 if __name__ == "__main__":
