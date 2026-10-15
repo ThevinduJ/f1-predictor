@@ -12,7 +12,7 @@
 [![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)](https://pandas.pydata.org/)
 [![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge)](https://matplotlib.org/)
 
-![Demo](link-to-image)
+![Demo](demo.png)
 
 </div>
 
@@ -87,7 +87,7 @@ Season and Grand Prix browser with a podium, full classification cards, position
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/<ThevinduJ>/F1-Predictor.git
+git clone https://github.com/<The>/F1-Predictor.git
 cd F1-Predictor
 
 # 2. Create and activate a virtual environment
