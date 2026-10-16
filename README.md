@@ -2,7 +2,7 @@
 
 # 🏎️ F1 PIT WALL
 
-**Fastest-lap telemetry, tyre physics and an XGBoost race-order forecaster, all on one cyberpunk pit-wall dashboard.**
+**Fastest-lap telemetry, tyre physics and an XGBoost race-order forecaster, all on one modern dashboard.**
 
 [![Python](https://img.shields.io/badge/Python-3.11+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
 [![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://streamlit.io/)
