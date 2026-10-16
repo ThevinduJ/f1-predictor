@@ -2,7 +2,6 @@
 
 # 🏎️ F1 PIT WALL
 
-### *Drive to Survive* meets Enterprise Data Science.
 **Fastest-lap telemetry, tyre physics and an XGBoost race-order forecaster, all on one cyberpunk pit-wall dashboard.**
 
 [![Python](https://img.shields.io/badge/Python-3.11+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
