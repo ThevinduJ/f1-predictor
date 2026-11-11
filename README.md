@@ -17,30 +17,30 @@
 
 ---
 
-## 🧭 Overview
+## Overview
 
 **F1 Pit Wall** is a motorsport analytics platform that turns raw Formula 1 timing data into something an engineer would actually want on the pit wall. It pulls official session data through **FastF1**, lets you put any two drivers head-to-head on their fastest race laps, and layers a **leakage-safe XGBoost model** on top to forecast the finishing order of upcoming Grands Prix.
 
-- 📡 **Telemetry analysis:** speed, throttle, brake, RPM and gear traces aligned by distance around the lap.
-- 🛞 **Tyre degradation:** clean-lap pace against tyre age, with fitted trendlines.
-- 🗺️ **Track map plotting:** the circuit drawn from X/Y position telemetry for each driver's fastest lap.
-- 🤖 **XGBoost prediction:** a recency-weighted model that forecasts the finishing order for an editable entry list.
-- 🏁 **Race archive:** official classifications, grid-vs-finish movement, fastest laps and tyre strategies.
-- 🎨 **Pit-wall UI:** a glassmorphism dark theme with neon accents, driver portraits and transparent charts.
+- **Telemetry analysis:** speed, throttle, brake, RPM and gear traces aligned by distance around the lap.
+- **Tyre degradation:** clean-lap pace against tyre age, with fitted trendlines.
+- **Track map plotting:** the circuit drawn from X/Y position telemetry for each driver's fastest lap.
+- **XGBoost prediction:** a recency-weighted model that forecasts the finishing order for an editable entry list.
+- **Race archive:** official classifications, grid-vs-finish movement, fastest laps and tyre strategies.
+- **Pit-wall UI:** a glassmorphism dark theme with neon accents, driver portraits and transparent charts.
 
 ---
 
-## 🚀 Live Demo
+## Live Demo
 
 > **[▶ Launch the app on Streamlit Community Cloud](https://f1-predictor-ksktvwe2w7hyqdpldbgb3d.streamlit.app)**
 
 ---
 
-## ⚡ Key Features
+## Key Features
 
 The dashboard has four pages. **Race Analysis** is the five-tab telemetry workbench, and the **Race Predictor** page is the sixth view.
 
-### 🔬 Race Analysis: two drivers, one circuit
+### Race Analysis: two drivers, one circuit
 Pick any season from 2018 onwards, a race, and two drivers. Team colours come from FastF1, with dashed lines when teammates share a colour.
 
 | Tab | What you get |
@@ -51,7 +51,7 @@ Pick any season from 2018 onwards, a race, and two drivers. Team colours come fr
 | ⏱️ **Sector Times** | Sector 1/2/3 times from each driver's fastest lap in a styled comparison table. |
 | 🌦️ **Weather** | Track and air temperature across the session timeline. |
 
-### 🤖 Race Predictor: XGBoost forecaster
+### Race Predictor: XGBoost forecaster
 - **Control panel:** choose an upcoming race, review or edit the entry list (add or remove drivers, change teams), then launch the prediction.
 - **Podium and full grid:** predicted finishing order shown as driver cards with portraits, team accents and predicted scores. Hover a card for career wins, podiums and age.
 - **Export:** download the exact predicted values as CSV.
@@ -64,12 +64,12 @@ Pick any season from 2018 onwards, a race, and two drivers. Team colours come fr
 - Current-race grid, qualifying, lap times, status and results are never direct inputs.
 - Recency weighting favours recent form. The holdout season is excluded from fitting, then the model is refit on all history for production.
 
-### 🏁 Race Results: the archive
+### Race Results: the archive
 Season and Grand Prix browser with a podium, full classification cards, positions gained or lost, fastest laps, team performance, actual tyre strategies and lap-by-lap race progression.
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Layer | Technology |
 |---|---|
@@ -82,7 +82,7 @@ Season and Grand Prix browser with a podium, full classification cards, position
 
 ---
 
-## 💻 Local Installation
+## Local Installation
 
 ```bash
 # 1. Clone the repository
